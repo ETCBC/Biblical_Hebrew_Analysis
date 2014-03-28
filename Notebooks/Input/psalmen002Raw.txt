@@ -4,7 +4,7 @@
 002;3pl-;WXQt;Coor;4;11;851;ind.;;;;LMH;;ind.;disc;MAIN;retro;crdMn>retro;;      |   |   |   |   |  [W-<Cj>] [RWZNJM <Su>] [NWSDW <Pr>] [JXD <Mo>] [<L JHWH W-<L MCJXW <Co>];and/but (why) have official ones closed?;have closed;
 003;1pl-;ZYq0;;5;111;0;coh.;coh.;;;;;coh.;disc;main;zero;opnDrSpMain;;      |   |   |   |   |      [NNTQH <Pr>] [>T MWSRWTJMW <Ob>];let us/we want to pull off their bands;let us/we want to pull off;
 003;1pl-;WYq0;;6;111;241;coh.;coh.;;;;;coh.;disc;main;zero;cntMain;;      |   |   |   |   |          [W-<Cj>] [NCLJKH <Pr>] [MMNW <Co>] [<BTJMW <Ob>];and let us/we want to throw their ropes;let us/we want to throw;
-004;-sgm;Ptcp;SuCl;7;1;0;ind.;;;;;;ind.;disc;main;;opnDpLnMain;DepDm;      |   |   |   |  [JWCB <PC>] [B--CMJM <Lo>];he/she who is sitting (in);;
+004;-sgm;Ptcp;SuCl;7;1;0;ind.;;;;;;ind.;disc;main;;opnDpLnMain;DepDm;      |   |   |   |  [JWCB <PC>] [B--CMJM <Lo>];he/she who is sitting (in);is sitting (in);
 004;3sgm;XYqt;;8;1;432;non-vol.;;;;;;non-vol.;disc;main;zero;cntMn>zero;;      |   |   |  [JFXQ <Pr>];laughs;laughs;
 004;3sgm;XYqt;;9;1;411;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;      |   |   |       |  [>DNJ <Su>] [JL<G <Pr>] [LMW <Co>];Adonai mocks;mocks;
 005;3sgm;xYq0;;10;1;591;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;      |   |   |      [>Z <Ti>] [JDBR <Pr>] [>LJMW <Co>] [B->PW <Aj>];then he speaks;speaks;
@@ -12,7 +12,7 @@
 006;1sg-;WXQt;;12;12;0;ind.;;;;;;ind.;disc;2nd;retro;opnDrSp2ndR;;      |   |   |          [W-<Cj>] [>NJ <Su>] [NSKTJ <Pr>] [MLKJ <Ob>] [<L YJWN / HR QDCJ <ap><Lo>];now, I[emph.] have poured my king;have poured;
 007;1sg-;ZYq0;;13;13;0;coh.;coh.;;;;;coh.;disc;main;zero;(re)openMain;;      |   |  [>SPRH <Pr>] [>L XQ JHWH <Co>];let me/I want to count;let me/I want to count;
 007;3sgm;ZQt0;;14;13;1122;ind.;;;;;;ind.;disc;2nd;retro;follArgum;;      |   |      [>MR <Pr>] [>LJ <Co>];as/since he has said;has said;
-007;---;NmCl;;15;131;0;nomin.;;;;;;nomin.;disc;2nd;;precGivInf;;      |   |          [BNJ <PC>] [>TH <Su>];now that/when you[emph.] are my son;;
+007;---;NmCl;;15;131;0;nomin.;;;;;;nomin.;disc;2nd;;precGivInf;;      |   |          [BNJ <PC>] [>TH <Su>];now that/when you[emph.] are my son;are;
 007;1sg-;XxQt;;16;131;832;ind.;;;;;;ind.;disc;2nd;retro;ctGvInf2ndR;;      |   |               |  [>NJ <Su>] [H-JWM <Ti>] [JLDTJK <PO>];(now that/when) I[emph.] have born you;have born;
 008;2sgm;ZIm0;;17;131;91;imperat.;;;;;;imperat.;disc;main;zero;GivInf>Mn;;      |   |              [C>L <Pr>] [MMNJ <Co>];ask!;ask;
 008;1sg-;WYq0;;18;131;222;coh.;coh.;;;;;final;disc;main;zero;cntMain;;      |   |                  [W-<Cj>] [>TNH <Pr>] [GWJM <Ob>] [NXLTK <Ob>];so that I may give peoples;may give;
@@ -27,7 +27,7 @@
 011;2plm;ZIm0;;27;14;11;imperat.;;;;;;imperat.;disc;main;zero;cntMain;;      |      [<BDW <Pr>] [>T JHWH <Ob>] [B-JR>H <Aj>];work/serve YHWH!;work/serve;
 011;2plm;WIm0;;28;14;11;imperat.;;;;;;imperat.;disc;main;zero;cntMain;;      |       |  [W-<Cj>] [GJLW <Pr>] [B-R<DH <Aj>];and rejoice!;rejoice;
 012;2plm;ZIm0;;29;14;11;imperat.;;;;;;imperat.;disc;main;zero;cntMain;;      |      [NCQW <Pr>] [BR <Ob>];kiss a son!;kiss;
-012;3sgm;xYq0;;30;14;573;neg.fin.;;;;;;neg.fin.;disc;main;zero;opnSbLnMain;SubDm;      |          [PN <Cj>] [J>NP <Pr>];so that he may not be angry;may not be angry;
-012;2plm;WYq0;Coor;31;14;282;juss.;;;neg.fin.;PN;;neg.fin.;disc;main;zero;crdSbLnMain;SubDm;      |               |  [W-<Cj>] [T>BDW <Pr>] [DRK <Lo>];and (so that) you may not perish;may not perish;
+012;3sgm;xYq0;;30;14;573;neg.fin.;;;;;;neg.fin.;disc;main;zero;opnSbLnMain;SubDm;      |          [PN <Cj>] [J>NP <Pr>];so that he may not be angry;may be angry;
+012;2plm;WYq0;Coor;31;14;282;juss.;;;neg.fin.;PN;;neg.fin.;disc;main;zero;crdSbLnMain;SubDm;      |               |  [W-<Cj>] [T>BDW <Pr>] [DRK <Lo>];and (so that) you may not perish;may perish;
 012;3sgm;xYqX;;32;14;603;non-vol.;;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;      |              [KJ <Cj>] [JB<R <Pr>] [K-M<V <Aj>] [>PW <Su>];given that his nose burns;burns;
-012;---;NmCl;;33;1;0;nomin.;;;;;;nomin.;disc;main;;(re)openMain;;     [>CRJ KL XWSJ / BW <sp><PC>];these are the happinesses of all;;
+012;---;NmCl;;33;1;0;nomin.;;;;;;nomin.;disc;main;;(re)openMain;;     [>CRJ KL XWSJ / BW <sp><PC>];these are the happinesses of all;are;
