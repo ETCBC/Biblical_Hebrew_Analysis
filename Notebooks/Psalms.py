@@ -32,6 +32,21 @@ table.presentation td.unicode {
     font-family:SBL Hebrew;
 }
 
+div.navigation {
+    margin:auto;
+    width:40%;
+    font-size:small;
+    font-style:italic;
+}
+
+div.navigation form, div.navigation form input {
+    display: inline;
+}
+
+form input {
+    max-width: 20px;
+}
+
 div.output {
     font-size: small;
     z-index:0;
@@ -81,6 +96,11 @@ div.left {
 div.right {
     border-right-style:dotted;
     border-right-width:thin;
+}
+
+div.delimit {
+	border-top-width: thin;
+	border-top-style: dotted;
 }
 
 span.translation_verb{
@@ -241,6 +261,8 @@ def getTranslation(translation, verb):
     result = ""
     sign = ""
     inMDM = False
+    translation = translation.replace(">", "&gt;")
+    translation = translation.replace("<", "&lt;")
     translation_list = re.split(' ',translation)
     translation_verb = verb.split()
     for word in translation_list:
@@ -281,7 +303,7 @@ def identify_verb(line, tp):
     
     return result
 
-def make_translation(data, unicode_lines):
+def make_translation(data, unicode_lines, n):
     total = '<table class="presentation" id="Translation">'
     head = '<tr><th>' + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a></th><th><a href="Translation.ipynb" target="_blank">' + "Translation" + '</a></th></tr>'
     total += head
@@ -306,6 +328,8 @@ def make_translation(data, unicode_lines):
         line = '<tr><td>' + current_verse + '</td><td class="unicode" nowrap>' + unicode_line_with_spaces + '</td><td style="font-family:Courier">' + d[2] + '</td><td nowrap>' + start_with_spaces + getTranslation(d[20],d[21]) + '</td></tr>'
         total += line
         i += 1
+        if (i == n):
+            break
     
     total += '</table>'
     display(HTML(total))
@@ -344,6 +368,8 @@ def setBLOCK(block):
 
 def setProcesses(morph, defFu, inhtbFu, inhFu, bloFu, finFu, MDM, conversion):
     result = ""
+    if (MDM != "" and MDM[0] == '('):
+        MDM = MDM[1:-1]
     if morph != "":
         if defFu == "non-vol.":
             result = "Morphological marking as " + setMORPH(morph) + " overrules non-volitive default function"
@@ -361,7 +387,7 @@ def setProcesses(morph, defFu, inhtbFu, inhFu, bloFu, finFu, MDM, conversion):
         elif bloFu == "inhExpSu":
             result = "This 0-yiqtol clause inherits its mother's explicit subject, should therefore be reanalyzed as an <X->yiqtol clause and so does not fulfill its " + setFU(defFu) + "  default function."
         else:
-            result = "This yiqtol clause inherits the multiple-duty modifier " + MDM + " and so does not fulfill its " + setFU(defFu) + "  default function."    
+            result = "This yiqtol clause inherits the multiple-duty modifier " + set_word_to_unicode(MDM, conversion) + " and so does not fulfill its " + setFU(defFu) + "  default function."    
     elif inhFu != "":
         if inhFu == inhtbFu:
             if inhFu == "vol.pair":
@@ -392,7 +418,7 @@ def assemble_default_discourse_functions(d):
     else:
         return (d[14] + '-' + d[15] + '-' + d[16])
     
-def make_analysis(data, unicode_lines, conversion):
+def make_analysis(data, unicode_lines, conversion, n):
     total = '<table class="presentation" id="Analysis">'
     head = '<tr><th>' + "Vs" + '</th><th>' + "\u00A7" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinalFu" + '</a></th><th><a href="MDModifier.ipynb" target="_blank">' + "MDMod" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFunction" + '</a></th><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th></tr>'
     total += head
@@ -405,6 +431,8 @@ def make_analysis(data, unicode_lines, conversion):
         line = '<tr id="ln' + str(i+1) + '"><td>' + d[0] + '</td><td>' + d[5] + '</td><td class="unicode" nowrap><div class="front_hebrew">' + unicode_line_with_spaces + '<div class="translation">' + getTranslation(d[20], d[21]) + '</div></div></td><td><div class="front">' + d[2] + '<div class="def_disc">' + df + '</div></div></td><td><div class="left">' + d[7] + '</div></td>' + processes + '<td><div class="right">' + d[13] + '</div></td><td class="unicode">' + set_word_to_unicode(d[11], conversion) + '</td><td>' + d[3] + '</td><td>' + d[17] + '</td><td><a href="Introduction.ipynb" target="_blank">' + d[6] + '</a></td></tr>'
         total += line
         i += 1
+        if (i == n):
+            break
     
     total += '</table>'
     
@@ -464,12 +492,15 @@ def setParticipants(agent, ptcp):
     else:
         return '<td>  ' + ptcp + '</td>'
             
-def make_patterns(patterns, unicode_lines, conversion):
+def make_patterns(patterns, conversion, n, delimiter):
     total = '<table class="presentation" id="Patterns">'
     head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
     total += head
+    patternNumber = 0
     
     for p in patterns:
+        if (n != 0 and int(p[0]) != n):
+            continue
         default_df_mother = setDefDisc(p[31], p[32], p[33], p[29], conversion)
         default_df_daughter = setDefDisc(p[34], p[35], p[36], p[30], conversion)
         mother_modifier = setModifier(p[19], conversion)
@@ -477,38 +508,36 @@ def make_patterns(patterns, unicode_lines, conversion):
         processes_mother = setProcesses(p[23], p[9], p[11], p[13], p[15], p[17], getMDM(p[19]), conversion)
         processes_daughter = setProcesses(p[24], p[10], p[12], p[14], p[16], p[18], getMDM(p[20]), conversion)
         participants = setParticipants(p[27], p[28])
-        mother_unicode_line_with_spaces = get_hebrew_in_unicode(unicode_lines[int(p[4]) - 1])
-        daughter_unicode_line_with_spaces = get_hebrew_in_unicode(unicode_lines[int(p[5]) - 1])
+        mother_unicode_line_with_spaces = get_hebrew_in_unicode(set_to_unicode(p[41], len(p[41]), conversion))
+        daughter_unicode_line_with_spaces = get_hebrew_in_unicode(set_to_unicode(p[44], len(p[44]), conversion))
         mother_ctt_text = (mother_unicode_line_with_spaces)[:(mother_unicode_line_with_spaces).rfind(']') + 1]
         daughter_ctt_text = (daughter_unicode_line_with_spaces)[:(daughter_unicode_line_with_spaces).rfind(']') + 1]
         
         lineMother = '<tr><td><a href="ConcordanceOfPatterns.ipynb#' + p[0] + '" target="_blank">' + p[0] + '</a></td><td>' + p[1] + '</td><td><a href="#ln' + p[4] + '">' + p[4] + '</a></td><td nowrap><div class="front">' + p[3][:4] + '<div class="def_disc">' + default_df_mother + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + mother_ctt_text + '<div class="translation">' + getTranslation(p[39], p[40]) + '</div></div></td><td>' + p[7]  + '</td><td nowrap>' + p[9] +'</td>' + processes_mother + '<td nowrap>' + p[17] + '</td>' + mother_modifier + '<td></td><td>' + p[37] + '</td></tr>' 
         lineDaughter = '<tr><td></td><td></td><td><a href="#ln' + p[5] + '">' +  p[5] + '</a></td><td nowrap><div class="front">' + p[3][6:] + '<div class="def_disc">' + default_df_daughter + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + daughter_ctt_text + '<div class="translation">' + getTranslation(p[42], p[43]) + '</div></div></td><td>' + p[8] + '</td><td nowrap>' + p[10] + '</td>' + processes_daughter + '<td nowrap>' + p[18] + '</td>' + daughter_modifier + participants + '<td>' + p[38] + '</td></tr>'
+        if (int(p[0]) != patternNumber and delimiter == "yes"):
+            total += '<tr><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td></tr><tr id="' + p[0] + '"><td>&nbsp;</td></tr>'
+            patternNumber = int(p[0])
         total += lineMother + lineDaughter + '<tr><td>&nbsp;</td></tr>'
     
     total += '</table>'
     
     display(HTML(total))
   
-def print_translation(analysisFile):
+def print_translation(analysisFile, numberOfLines=0):
     data = read_file(analysisFile)
     conversion_to_utf8 = create_conversion_dict()
     unicode_lines = analyze_transcription(data, conversion_to_utf8)
-    make_translation(data, unicode_lines)
+    make_translation(data, unicode_lines, numberOfLines)
     
-def print_analysis(analysisFile):
+def print_analysis(analysisFile, numberOfLines=0):
     data = read_file(analysisFile)
     conversion_to_utf8 = create_conversion_dict()
     unicode_lines = analyze_transcription(data, conversion_to_utf8)
-    make_analysis(data, unicode_lines, conversion_to_utf8)
+    make_analysis(data, unicode_lines, conversion_to_utf8, numberOfLines)
 
-def print_patterns(analysisFile, patternsFile):
-    data = read_file(analysisFile)
+def print_patterns(patternsFile, patternNumber=0, delimit="no"):
     patterns = read_file(patternsFile)
     conversion_to_utf8 = create_conversion_dict()
-    unicode_lines = analyze_transcription(data, conversion_to_utf8)
-    make_patterns(patterns, unicode_lines, conversion_to_utf8)
-
-# <codecell>
-
+    make_patterns(patterns, conversion_to_utf8, patternNumber, delimit)
 

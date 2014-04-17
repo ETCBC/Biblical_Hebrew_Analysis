@@ -1,9 +1,9 @@
 001;3pl-;xQtX;;1;1;0;ind.;;;;;;ind.;disc;MAIN;retro;(re)openMain;; [LMH <Qu>] [RGCW <Pr>] [GWJM <Su>];why have peoples been in turmoil?;have been in turmoil;
 001;3plm;WXYq;Coor;2;1;521;non-vol.;;;;LMH;;non-vol.;disc;MAIN;zero;crdMn>zero;;      |   |   |   |   |  [W-<Cj>] [L>MJM <Su>] [JHGW <Pr>] [RJQ <Ob>];and/but (why) do peoples mutter an emptiness?;do mutter;
 002;3plm;ZYqX;Coor;3;1;162;volit.;;;;LMH;MDMblock;non-vol.;disc;MAIN;zero;crdMn>zero;;      |   |   |   |  [JTJYBW <Pr>] [MLKJ >RY <Su>];(why) do kings of the earth stand?;do stand;
-002;3pl-;WXQt;Coor;4;11;851;ind.;;;;LMH;;ind.;disc;MAIN;retro;crdMn>retro;;      |   |   |   |   |  [W-<Cj>] [RWZNJM <Su>] [NWSDW <Pr>] [JXD <Mo>] [<L JHWH W-<L MCJXW <Co>];and/but (why) have official ones closed?;have closed;
-003;1pl-;ZYq0;;5;111;0;coh.;coh.;;;;;coh.;disc;main;zero;opnDrSpMain;;      |   |   |   |   |      [NNTQH <Pr>] [>T MWSRWTJMW <Ob>];let us/we want to pull off their bands;let us/we want to pull off;
-003;1pl-;WYq0;;6;111;241;coh.;coh.;;;;;coh.;disc;main;zero;cntMain;;      |   |   |   |   |          [W-<Cj>] [NCLJKH <Pr>] [MMNW <Co>] [<BTJMW <Ob>];and let us/we want to throw their ropes;let us/we want to throw;
+002;3pl-;WXQt;Coor;4;11;851;ind.;;;;LMH;;ind.;disc;MAIN;retro;crdMn>retro;;      |   |   |   |      [W-<Cj>] [RWZNJM <Su>] [NWSDW <Pr>] [JXD <Mo>] [<L JHWH W-<L MCJXW <Co>];and/but (why) have official ones closed?;have closed;
+003;1pl-;ZYq0;;5;111;0;coh.;coh.;;;;;coh.;disc;main;zero;opnDrSpMain;;      |   |   |   |          [NNTQH <Pr>] [>T MWSRWTJMW <Ob>];let us/we want to pull off their bands;let us/we want to pull off;
+003;1pl-;WYq0;;6;111;241;coh.;coh.;;;;;coh.;disc;main;zero;cntMain;;      |   |   |   |              [W-<Cj>] [NCLJKH <Pr>] [MMNW <Co>] [<BTJMW <Ob>];and let us/we want to throw their ropes;let us/we want to throw;
 004;-sgm;Ptcp;SuCl;7;1;0;ind.;;;;;;ind.;disc;main;;opnDpLnMain;DepDm;      |   |   |   |  [JWCB <PC>] [B--CMJM <Lo>];he/she who is sitting (in);is sitting (in);
 004;3sgm;XYqt;;8;1;432;non-vol.;;;;;;non-vol.;disc;main;zero;cntMn>zero;;      |   |   |  [JFXQ <Pr>];laughs;laughs;
 004;3sgm;XYqt;;9;1;411;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;      |   |   |       |  [>DNJ <Su>] [JL<G <Pr>] [LMW <Co>];Adonai mocks;mocks;
