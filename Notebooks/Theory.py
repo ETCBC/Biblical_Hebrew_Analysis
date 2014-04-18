@@ -96,6 +96,11 @@ p.note {
     font-style:italic;
 }
 
+div.button {
+	max-width:15%;
+	margin:auto;
+}
+
 </style>
 """))
 

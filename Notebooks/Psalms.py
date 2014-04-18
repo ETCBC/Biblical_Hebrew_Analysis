@@ -32,9 +32,19 @@ table.presentation td.unicode {
     font-family:SBL Hebrew;
 }
 
+table.categories {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.categories, table.categories tr, table.categories th, table.categories td {
+    border-style:hidden;
+    color: Maroon;
+}
+
 div.navigation {
     margin:auto;
-    width:40%;
+    width:50%;
     font-size:small;
     font-style:italic;
 }
@@ -45,6 +55,15 @@ div.navigation form, div.navigation form input {
 
 form input {
     max-width: 20px;
+}
+
+div.button form input {
+	max-width:100%;
+}
+
+div.button {
+	max-width:15%;
+	margin:auto;
 }
 
 div.output {
@@ -428,7 +447,7 @@ def make_analysis(data, unicode_lines, conversion, n):
         unicode_line_with_spaces = get_hebrew_in_unicode(unicode_lines[i])
         processes = setProcesses(d[8], d[7], d[9], d[10], d[12], d[13], d[11], conversion)
         df = assemble_default_discourse_functions(d)    
-        line = '<tr id="ln' + str(i+1) + '"><td>' + d[0] + '</td><td>' + d[5] + '</td><td class="unicode" nowrap><div class="front_hebrew">' + unicode_line_with_spaces + '<div class="translation">' + getTranslation(d[20], d[21]) + '</div></div></td><td><div class="front">' + d[2] + '<div class="def_disc">' + df + '</div></div></td><td><div class="left">' + d[7] + '</div></td>' + processes + '<td><div class="right">' + d[13] + '</div></td><td class="unicode">' + set_word_to_unicode(d[11], conversion) + '</td><td>' + d[3] + '</td><td>' + d[17] + '</td><td><a href="Introduction.ipynb" target="_blank">' + d[6] + '</a></td></tr>'
+        line = '<tr id="ln' + str(i+1) + '"><td>' + d[0] + '</td><td>' + d[5] + '</td><td class="unicode" nowrap><div class="front_hebrew">' + unicode_line_with_spaces + '<div class="translation">' + getTranslation(d[20], d[21]) + '</div></div></td><td><div class="front">' + d[2] + '<div class="def_disc">' + df + '</div></div></td><td><div class="left">' + d[7] + '</div></td>' + processes + '<td><div class="right">' + d[13] + '</div></td><td class="unicode">' + set_word_to_unicode(d[11], conversion) + '</td><td>' + d[3] + '</td><td>' + d[17] + '</td><td><a href="ConcordanceOfPatterns.ipynb#"' + d[6] + '" target="_blank">' + d[6] + '</a></td></tr>'
         total += line
         i += 1
         if (i == n):
@@ -472,12 +491,14 @@ def setModifier(s, conversion):
     modifier = getModifier(s)
     MDM = getMDM(s)
     if (modifier != "" and MDM != ""):
-        return '<td class="unicode" nowrap>' + set_word_to_unicode(modifier, conversion) + "" + set_word_to_unicode(MDM, conversion) + '&#8207;</td>'
+        return '<td class="unicode" nowrap><div class="right">' + set_word_to_unicode(modifier, conversion) + "" + set_word_to_unicode(MDM, conversion) + '&#8207;</div></td>'
     elif (modifier != ""):
-        return '<td class="unicode" nowrap>' + set_word_to_unicode(modifier, conversion) + '</td>'
+        return '<td class="unicode" nowrap><div class="right">' + set_word_to_unicode(modifier, conversion) + '</div></td>'
+    elif (MDM != ""):
+        return '<td class="unicode" nowrap><div class="right">' + set_word_to_unicode(MDM, conversion) + '</div></td>'
     else:
-        return '<td class="unicode" nowrap>' + set_word_to_unicode(MDM, conversion) + '</td>'
-      
+        return '<td><div class="right">&nbsp;</div></td>'	
+   
 def set_agent_parameters(agent):
     if (agent == "newAgent"):
         return "The daughter clause has as its subject a new participant."
@@ -492,9 +513,12 @@ def setParticipants(agent, ptcp):
     else:
         return '<td>  ' + ptcp + '</td>'
             
-def make_patterns(patterns, conversion, n, delimiter):
+def make_patterns(patterns, conversion, n, conc):
     total = '<table class="presentation" id="Patterns">'
-    head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
+    if (conc == "yes"):
+        head = '<tr><th>' + "#Pat" + '</th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
+    else:
+        head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
     total += head
     patternNumber = 0
     
@@ -513,9 +537,13 @@ def make_patterns(patterns, conversion, n, delimiter):
         mother_ctt_text = (mother_unicode_line_with_spaces)[:(mother_unicode_line_with_spaces).rfind(']') + 1]
         daughter_ctt_text = (daughter_unicode_line_with_spaces)[:(daughter_unicode_line_with_spaces).rfind(']') + 1]
         
-        lineMother = '<tr><td><a href="ConcordanceOfPatterns.ipynb#' + p[0] + '" target="_blank">' + p[0] + '</a></td><td>' + p[1] + '</td><td><a href="#ln' + p[4] + '">' + p[4] + '</a></td><td nowrap><div class="front">' + p[3][:4] + '<div class="def_disc">' + default_df_mother + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + mother_ctt_text + '<div class="translation">' + getTranslation(p[39], p[40]) + '</div></div></td><td>' + p[7]  + '</td><td nowrap>' + p[9] +'</td>' + processes_mother + '<td nowrap>' + p[17] + '</td>' + mother_modifier + '<td></td><td>' + p[37] + '</td></tr>' 
-        lineDaughter = '<tr><td></td><td></td><td><a href="#ln' + p[5] + '">' +  p[5] + '</a></td><td nowrap><div class="front">' + p[3][6:] + '<div class="def_disc">' + default_df_daughter + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + daughter_ctt_text + '<div class="translation">' + getTranslation(p[42], p[43]) + '</div></div></td><td>' + p[8] + '</td><td nowrap>' + p[10] + '</td>' + processes_daughter + '<td nowrap>' + p[18] + '</td>' + daughter_modifier + participants + '<td>' + p[38] + '</td></tr>'
-        if (int(p[0]) != patternNumber and delimiter == "yes"):
+        if (conc == "yes"):
+            lineMother = '<tr><td>' + p[0] + '</td><td><a href="Psalm' + str(int(p[1][2:5])) + '.ipynb" target="_blank">' + p[1] + '</a></td><td>' + p[4] + '</td><td nowrap><div class="front">' + p[3][:4] + '<div class="def_disc">' + default_df_mother + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + mother_ctt_text + '<div class="translation">' + getTranslation(p[39], p[40]) + '</div></div></td><td>' + p[7]  + '</td><td nowrap><div class="left">' + p[9] +'</div></td>' + processes_mother + '<td nowrap><div class="right">' + p[17] + '</div></td>' + mother_modifier + '<td></td><td>' + p[37] + '</td></tr>' 
+            lineDaughter = '<tr><td></td><td></td><td>' +  p[5] + '</td><td nowrap><div class="front">' + p[3][6:] + '<div class="def_disc">' + default_df_daughter + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + daughter_ctt_text + '<div class="translation">' + getTranslation(p[42], p[43]) + '</div></div></td><td>' + p[8] + '</td><td nowrap><div class="left">' + p[10] + '</div></td>' + processes_daughter + '<td nowrap><div class="right">' + p[18] + '</div></td>' + daughter_modifier + participants + '<td>' + p[38] + '</td></tr>'
+        else:
+            lineMother = '<tr><td><a href="ConcordanceOfPatterns.ipynb#' + p[0] + '" target="_blank">' + p[0] + '</a></td><td>' + p[1] + '</td><td><a href="#ln' + p[4] + '">' + p[4] + '</a></td><td nowrap><div class="front">' + p[3][:4] + '<div class="def_disc">' + default_df_mother + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + mother_ctt_text + '<div class="translation">' + getTranslation(p[39], p[40]) + '</div></div></td><td>' + p[7]  + '</td><td nowrap><div class="left">' + p[9] +'</div></td>' + processes_mother + '<td nowrap><div class="right">' + p[17] + '</div></td>' + mother_modifier + '<td></td><td>' + p[37] + '</td></tr>' 
+            lineDaughter = '<tr><td></td><td></td><td><a href="#ln' + p[5] + '">' +  p[5] + '</a></td><td nowrap><div class="front">' + p[3][6:] + '<div class="def_disc">' + default_df_daughter + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + daughter_ctt_text + '<div class="translation">' + getTranslation(p[42], p[43]) + '</div></div></td><td>' + p[8] + '</td><td nowrap><div class="left">' + p[10] + '</div></td>' + processes_daughter + '<td nowrap><div class="right">' + p[18] + '</div></td>' + daughter_modifier + participants + '<td>' + p[38] + '</td></tr>'		
+        if (int(p[0]) != patternNumber and conc == "yes"):
             total += '<tr><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td></tr><tr id="' + p[0] + '"><td>&nbsp;</td></tr>'
             patternNumber = int(p[0])
         total += lineMother + lineDaughter + '<tr><td>&nbsp;</td></tr>'
@@ -536,8 +564,8 @@ def print_analysis(analysisFile, numberOfLines=0):
     unicode_lines = analyze_transcription(data, conversion_to_utf8)
     make_analysis(data, unicode_lines, conversion_to_utf8, numberOfLines)
 
-def print_patterns(patternsFile, patternNumber=0, delimit="no"):
+def print_patterns(patternsFile, patternNumber=0, conc="no"):
     patterns = read_file(patternsFile)
     conversion_to_utf8 = create_conversion_dict()
-    make_patterns(patterns, conversion_to_utf8, patternNumber, delimit)
+    make_patterns(patterns, conversion_to_utf8, patternNumber, conc)
 
