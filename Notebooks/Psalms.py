@@ -447,7 +447,7 @@ def make_analysis(data, unicode_lines, conversion, n):
         unicode_line_with_spaces = get_hebrew_in_unicode(unicode_lines[i])
         processes = setProcesses(d[8], d[7], d[9], d[10], d[12], d[13], d[11], conversion)
         df = assemble_default_discourse_functions(d)    
-        line = '<tr id="ln' + str(i+1) + '"><td>' + d[0] + '</td><td>' + d[5] + '</td><td class="unicode" nowrap><div class="front_hebrew">' + unicode_line_with_spaces + '<div class="translation">' + getTranslation(d[20], d[21]) + '</div></div></td><td><div class="front">' + d[2] + '<div class="def_disc">' + df + '</div></div></td><td><div class="left">' + d[7] + '</div></td>' + processes + '<td><div class="right">' + d[13] + '</div></td><td class="unicode">' + set_word_to_unicode(d[11], conversion) + '</td><td>' + d[3] + '</td><td>' + d[17] + '</td><td><a href="ConcordanceOfPatterns.ipynb#"' + d[6] + '" target="_blank">' + d[6] + '</a></td></tr>'
+        line = '<tr id="ln' + str(i+1) + '"><td>' + d[0] + '</td><td>' + d[5] + '</td><td class="unicode" nowrap><div class="front_hebrew">' + unicode_line_with_spaces + '<div class="translation">' + getTranslation(d[20], d[21]) + '</div></div></td><td><div class="front">' + d[2] + '<div class="def_disc">' + df + '</div></div></td><td><div class="left">' + d[7] + '</div></td>' + processes + '<td><div class="right">' + d[13] + '</div></td><td class="unicode">' + set_word_to_unicode(d[11], conversion) + '</td><td>' + d[3] + '</td><td>' + d[17] + '</td><td><a href="ConcordanceOfPatterns.ipynb#' + d[6] + '" target="_blank">' + d[6] + '</a></td></tr>'
         total += line
         i += 1
         if (i == n):
