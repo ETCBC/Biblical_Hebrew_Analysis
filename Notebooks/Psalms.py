@@ -131,6 +131,11 @@ span.verb {
     color: Crimson;
 }
 
+div.small {
+    font-size: xx-small;	
+	line-height: 95%;
+}
+
 </style>
 """))
 
@@ -439,7 +444,7 @@ def assemble_default_discourse_functions(d):
     
 def make_analysis(data, unicode_lines, conversion, n):
     total = '<table class="presentation" id="Analysis">'
-    head = '<tr><th>' + "Vs" + '</th><th>' + "\u00A7" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinalFu" + '</a></th><th><a href="MDModifier.ipynb" target="_blank">' + "MDMod" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFunction" + '</a></th><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th></tr>'
+    head = '<tr><th>' + "Vs" + '</th><th>' + "\u00A7" + '</th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinalFu" + '</a></th><th><a href="MDModifier.ipynb" target="_blank">' + "MDMod" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFunction" + '</a></th><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th></tr>'
     total += head
     i = 0
     
@@ -516,9 +521,9 @@ def setParticipants(agent, ptcp):
 def make_patterns(patterns, conversion, n, conc):
     total = '<table class="presentation" id="Patterns">'
     if (conc == "yes"):
-        head = '<tr><th>' + "#Pat" + '</th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
+        head = '<tr><th>' + "#Pat" + '</th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
     else:
-        head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</th><th><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
+        head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
     total += head
     patternNumber = 0
     
