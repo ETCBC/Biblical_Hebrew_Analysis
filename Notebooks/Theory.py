@@ -19,9 +19,9 @@ table.presentation, table.presentation tr, table.presentation th, table.presenta
 }
 
 table.verbs, table.verbs tr, table.verbs th, table.verbs td {
-    border-style:hidden;
+    border-style: hidden;
     color: Maroon;
-    font-size: small;
+	text-align: center;
 }
 
 table.patterns, table.patterns tr, table.patterns th, table.patterns td {
@@ -41,6 +41,27 @@ table.presentation th, table.presentation td, table.patterns th, table.patterns 
 
 table.verbs td {
     padding:5px 10px 5px 10px;
+}
+
+table.verbs div.rotation {
+	display:block;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+table.verbs td.background {
+	background-color: LightCyan;
+	color: DarkBlue;
+	font-weight: bold;
+	font-style: italic;
+}
+
+table.verbs td.foreground {
+	background-color: MistyRose;
+	color: DarkRed;
+	font-weight: bold;
+	font-style: italic;
 }
 
 table.verbal_patterns td {
@@ -67,19 +88,6 @@ table.patterns td.head {
 
 table.presentation th {
     text-align:center;
-}
-
-figure.table {
-    text-align:center;
-    border-style:dotted;
-    border-width:thin;
-    max-width:50%;
-}
-
-figcaption {
-    font-style:italic;
-    font-size:x-small;
-    text-align:right;
 }
 
 span.hebrew, table.presentation td.hebrew {
