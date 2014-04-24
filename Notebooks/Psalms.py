@@ -71,11 +71,15 @@ div.output {
     z-index:0;
 }
 
-div.front {
+div.front, div.front_b {
     color: Crimson;
 }
 
-div.front div, div.front_hebrew div {
+div.front {
+	text-align: center;
+}
+
+div.front div, div.front_b div, div.front_hebrew div {
     display: none;
 }
 
@@ -83,7 +87,7 @@ div.front_hebrew div {
     position: relative;
 }
 
-div.front:hover div {
+div.front:hover div, div.front_b:hover div {
     display: block;
     max-width: 200px;
 }
@@ -190,13 +194,14 @@ def create_conversion_dict():
             'n': "\u05DF",
             'k': "\u05DA",
             'y': "\u05E5",
-            '_': "-",
-            '-': "-",
-            '[': "[",
-            ']': "]",
+            '_': "\u002D",
+            '-': "\u002D",
+            '[': "\u005B",
+            ']': "\u005D",
             '/': "/",
             ' ': " ",
             '\0': "",
+			'=': "",
             '(': "\u0028",
             ')': "\u0029"}
 
@@ -218,7 +223,7 @@ def set_word_to_unicode(sp, conversion):
     i = 1
     result = ""
     for c in sp:
-        if i == len(sp):
+        if i == len(sp) or (i == (len(sp) - 1) and sp[-1] == ')'):
             c = test_final_character(c)
         result += (conversion[c])
         i += 1
@@ -282,15 +287,18 @@ def analyze_transcription(data, conversion):
     return unicode_lines
 
 def getTranslation(translation, verb):
+    if translation == "":
+        return ""
     result = ""
     sign = ""
     inMDM = False
+    translation = translation.strip()
     translation = translation.replace(">", "&gt;")
     translation = translation.replace("<", "&lt;")
     translation_list = re.split(' ',translation)
     translation_verb = verb.split()
     for word in translation_list:
-        if word[-1] == '!' or word[-1] == '?':
+        if len(word) > 1 and (word[-1] == '!' or word[-1] == '?'):
             sign = word[-1]
             word = word[:-1]
         if word[0] == '(':
@@ -371,7 +379,9 @@ def setFU(fu):
         return "final"
     elif fu == "neg.fin.":
         return "negative final"
-    elif fu == "proh.":
+    elif fu == "neg.vol.":
+        return "negative volitive"
+    elif fu == "prohib.":
         return "prohibitive"
     else:
         return "indicative"
@@ -384,9 +394,9 @@ def setMORPH(morph):
     
 def setBLOCK(block):
     if block == "attr.":
-        return "attributive"
+        return "an attributive"
     elif block == "constit.":
-        return "constituent"
+        return "a constituent"
     else:
         return "?"
 
@@ -401,7 +411,7 @@ def setProcesses(morph, defFu, inhtbFu, inhFu, bloFu, finFu, MDM, conversion):
             result = "Morphological marking as " + setMORPH(morph) + " confirms " + setFU(defFu) + " default function"
     elif bloFu != "":
         if (bloFu == "attr." or bloFu == "constit."):
-            result = "This 0-yiqtol clause is a " + BLOCK(bloFu) + " clause and therefore does not fulfill its default " + setFU(defFu) + " function."
+            result = "This 0-yiqtol clause is " + setBLOCK(bloFu) + " clause and therefore does not fulfill its default " + setFU(defFu) + " function."
         elif bloFu == "precDrSp":
             result = "This 0-yiqtol clause introduces the preceding direct speech section, which should be seen as the 0-yiqtol verb's object. Therefore the clause does not fulfill its " + setFU(defFu) + " default function."
         elif bloFu == "narr":
@@ -409,16 +419,18 @@ def setProcesses(morph, defFu, inhtbFu, inhFu, bloFu, finFu, MDM, conversion):
         elif bloFu == "prosp":
             result = "This 0-yiqtol clause is embedded in a prospective domain of communication and therefore does not fulfill its " + setFU(defFu) + "  default function."
         elif bloFu == "inhExpSu":
-            result = "This 0-yiqtol clause inherits its mother's explicit subject, should therefore be reanalyzed as an <X->yiqtol clause and so does not fulfill its " + setFU(defFu) + "  default function."
+            result = "This 0-yiqtol clause inherits its mother's explicit subject, should therefore be reanalyzed as an (X-)yiqtol clause and so does not fulfill its " + setFU(defFu) + "  default function."
         else:
             result = "This yiqtol clause inherits the multiple-duty modifier " + set_word_to_unicode(MDM, conversion) + " and so does not fulfill its " + setFU(defFu) + "  default function."    
     elif inhFu != "":
         if inhFu == inhtbFu:
             if inhFu == "vol.pair":
                 result = "The clause forms a volitive pair together with its volitive daughter clause. The " + setFU(defFu) + " default function is overridden by a volitive one."
+            elif inhFu == defFu:
+                result = "The non-volitive default function of this weQatal-clause is preserved as the clause inherits non-volitive functionality."
             else:
                 result = "Inheritance of " + setFU(inhtbFu) + " functionality is possible and does indeed take place. The " + setFU(defFu) + " default function is overridden."
-        elif inhFu == "neg.fin.":
+        elif inhFu == "neg.fin." or inhFu == "neg.vol.":
                 result = "Inheritance of " + setFU(inhFu) + " functionality is possible and does indeed take place. The " + setFU(defFu) + " default function is overridden." 
         else:
             if inhtbFu == "vol.pair":
@@ -444,7 +456,7 @@ def assemble_default_discourse_functions(d):
     
 def make_analysis(data, unicode_lines, conversion, n):
     total = '<table class="presentation" id="Analysis">'
-    head = '<tr><th>' + "Vs" + '</th><th>' + "\u00A7" + '</th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinalFu" + '</a></th><th><a href="MDModifier.ipynb" target="_blank">' + "MDMod" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFunction" + '</a></th><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th></tr>'
+    head = '<tr><th>' + "Vs" + '</th><th>' + "\u00A7" + '</th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Processes" + '</a><br><div class="small">' + '(hover over<br>"!"-sign)' + '</div></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinalFu" + '</a></th><th><a href="MDModifier.ipynb" target="_blank">' + "MDMod" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFunction" + '</a></th><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th></tr>'
     total += head
     i = 0
     
@@ -506,7 +518,7 @@ def setModifier(s, conversion):
    
 def set_agent_parameters(agent):
     if (agent == "newAgent"):
-        return "The daughter clause has as its subject a new participant."
+        return "The daughter clause has as its subject a new animate participant."
     elif (agent == "nwPtcpSet"):
         return "The daughter clause introduces a new set of participants."
     else:
@@ -514,16 +526,16 @@ def set_agent_parameters(agent):
     
 def setParticipants(agent, ptcp):
     if (agent != ""):
-        return '<td><div class="front">' + ptcp + '<div class="factors">' + set_agent_parameters(agent) + '</div></div></td>'
+        return '<td><div class="front_b">' + ptcp + '<div class="factors">' + set_agent_parameters(agent) + '</div></div></td>'
     else:
         return '<td>  ' + ptcp + '</td>'
             
 def make_patterns(patterns, conversion, n, conc):
     total = '<table class="presentation" id="Patterns">'
     if (conc == "yes"):
-        head = '<tr><th>' + "#Pat" + '</th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
+        head = '<tr><th>' + "#Pat" + '</th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Processes" + '</a><br><div class="small">' + '(hover over<br>"!"-sign)' + '</div></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
     else:
-        head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Prcs" + '</a></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
+        head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Processes" + '</a><br><div class="small">' + '(hover over<br>"!"-sign)' + '</div></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
     total += head
     patternNumber = 0
     

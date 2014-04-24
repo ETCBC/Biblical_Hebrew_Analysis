@@ -10,7 +10,7 @@
 003;3sgm;WXxY;Coor;10;1;511;non-vol.;;;;>CR;;non-vol.;disc;main;zero;crdAttrMain;AttrDm;      |       |   |      [W-<Cj>] [<LHW <Su>] [L> <Ng>] [JBWL <Pr>];and/but (for whom/which is true that) his leafage does not wither;does wither;
 003;---;Defc;;11;1;542;-;;;;;;-;;;;cnt2ndF>Fg;;      |       |  [W-<Cj>] [KL <Su>];and/but all;;
 003;3sgm;xYq0;Attr;12;1;593;non-vol.;;;;;;non-vol.;disc;main;zero;opnAttrMain;AttrDm;      |       |       |  [>CR <Re>] [J<FH <Pr>];for whom/which is true that he makes/does;makes/does;
-003;3sgm;WXYq;;13;1;0;non-vol.;;;;;;non-vol.;disc;main;zero;;;      |       |      [JYLJX <Pr>];is strong/succesful;is strong/succesful;
+003;3sgm;WXYq;;13;1;0;non-vol.;;;;;;non-vol.;disc;main;zero;;;      |       |      [JYLJX <Pr>];is strong/successful;is strong/successful;
 004;---;NmCl;;14;1;1712;nomin.;;;;;;nomin.;disc;main;;opnMain;;      |      [L> <Ng>] [KN <PC>] [H-RC<JM <Su>];the guilty ones are not thus;are;
 004;---;NmCl;;15;1;1731;nomin.;;;;;;nomin.;disc;main;;cntMain;;      |          [KJ >M <Cj>] [K--MY <PC>];however, they are as the chaff;are;
 004;3sgf;xYqX;Attr;16;1;653;non-vol.;;;;;;non-vol.;disc;main;zero;opnAttrMain;AttrDm;      |              [>CR <Re>] [TDPNW <PO>] [RWX <Su>];for whom/which is true that a wind scatters him;scatters;
