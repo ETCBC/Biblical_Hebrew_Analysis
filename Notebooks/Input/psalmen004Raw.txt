@@ -29,8 +29,8 @@
 007;---;Voct;;29;22;0;-;;;;;;-;;;;;;      |          [JHWH <Vo>];o YHWH;;
 008;2sgm;ZQt0;;30;2;0;ind.;;;;;;ind.;disc;2nd;retro;precGivInf;;     [NTTH <Pr>] [FMXH <Ob>] [B-LBJ <Co>] [M-<T <Aj>];now that/when you have given a joy;have given;
 008;3pl-;XQtl;RgRc;31;2;0;ind.;;;;;;ind.;disc;2nd;retro;opnDpLn2ndR;DepDm;          |  [DGNM W-TJRWCM <Su>] [RBW <Pr>];their corn and.. have been much;have been much;
-009;1sg-;xYq0;;32;2;612;non-vol.;coh.;;;;;coh.;disc;main;zero;GivInf>Mn;;         [B-CLWM <Aj>] [JXDW <Mo>] [>CKBH <Pr>];let me lie down;let me lie down;
-009;1sg-;WYq0;;33;2;281;coh.;;;;;;coh.;disc;main;zero;cntMain;;              |  [W-<Cj>] [>JCN <Pr>];and let me sleep;let me sleep;
-009;---;Defc;;34;2;423;-;;;;;;-;;;;opnSbLnMain;SubDm;             [KJ <Cj>] [>TH <Su>];given that you(emph.);;
+009;1sg-;xYq0;;32;2;612;non-vol.;coh.;;;;;coh.;disc;main;zero;GivInf>Mn;;         [B-CLWM <Aj>] [JXDW <Mo>] [>CKBH <Pr>];let me lie down;let lie down;
+009;1sg-;WYq0;;33;2;281;coh.;;;;;;coh.;disc;main;zero;cntMain;;              |  [W-<Cj>] [>JCN <Pr>];and let me sleep;let sleep;
+009;---;Defc;;34;2;423;-;;;;;;-;;;;opnSbLnMain;SubDm;             [KJ <Cj>] [>TH <Su>];given that you;;
 009;---;Voct;;35;2;0;-;;;;;;-;;;;;SubDm;                  |  [JHWH <Vo>];o YHWH;;
 009;2sgm;XxYq;;36;2;0;non-vol.;;;;;;non-vol.;disc;main;zero;;SubDm;                 [L-BDD <Aj>] [L-BVX <Aj>] [TWCJBNJ <PO>];cause me to sit (in);cause to sit (in);

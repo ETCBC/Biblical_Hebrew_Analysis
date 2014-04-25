@@ -10,7 +10,7 @@
 005;3sgm;xQtX;;10;2;1002;ind.;;;;;;ind.;disc;2nd;retro;opn2ndR;;      |   |              [B-KL H->RY <Co>] [JY> <Pr>] [QWM <Su>];their line has gone out;has gone out;
 005;---;Ellp;;11;2;0;-;;;;;;-;;;;;;      |   |                  [W-<Cj>] [B-QYH TBL <Co>] [MLJHM <Su>];and their words;;
 005;3sgm;xQt0;;12;2;1002;ind.;;;;;;ind.;disc;2nd;retro;opn2ndR;;      |  [L--CMC <Co>] [FM <Pr>] [>HL <Ob>] [BHM <Co>];he has put a tent;has put;
-006;---;NmCl;;13;2;1692;nomin.;;;;;;nomin.;disc;main;;opnMain;;      |      [W-<Cj>] [HW> <Su>] [K-XTN <PC>];and he(emph.) is as a son-in-law;is;
+006;---;NmCl;;13;2;1692;nomin.;;;;;;nomin.;disc;main;;opnMain;;      |      [W-<Cj>] [HW> <Su>] [K-XTN <PC>];and he is as a son-in-law;is;
 006;-sgm;Ptcp;Attr;14;2;1643;ind.;;;;;;ind.;disc;main;;opnAttrMain;AttrDm;      |           |   |  [JY> <PC>] [M-XPTW <Co>];who/which is going out;is going out;
 006;3sgm;ZYq0;;15;2;201;volit.;;;;;inhExpSu;non-vol.;disc;main;zero;cntMain;;      |           |  [JFJF <Pr>] [K-GBWR <Aj>];he rejoices;rejoices;
 006;---;InfC;AjCl;16;2;0;inf.;;;;;;inf.;;;;opnDpLn;DepDm;      |           |      [L-RWY <Pr>] [>RX <Ob>];in order to run a path;run;
@@ -40,5 +40,5 @@
 014;3plm;xYq0;;40;21;572;prohib.;;;;;;prohib.;disc;main;zero;cntMain;;                  |       |  [>L <Ng>] [JMCLW <Pr>] [BJ <Co>];they should not rule;should rule;
 014;1sg-;xYq0;;41;21;572;non-vol.;;juss.;x;;;non-vol.;disc;main;zero;cntMain;;                  |      [>Z <Ti>] [>JTM <Pr>];then I am complete;am complete;
 014;1sg-;WQt0;Coor;42;21;1451;non-vol.;;non-vol.;non-vol.;>Z;;non-vol.;disc;2nd;forwd;opn2ndF;;                  |          [W-<Cj>] [NQJTJ <Pr>] [M-PC< RB <Co>];and then (then) I will cause to be clean;will cause to be clean;
-015;3plm;ZYqX;;43;21;192;volit.;;;;;;volit.;disc;main;zero;(re)openMain;;                 [JHJW <Pr>] [L-RYWN <PC>] [>MRJ PJ W-HGJWN LBJ <Su>] [L-PNJK <Aj>];let the words of my mouth and.. be to a pleasure;let the words of my mouth and.. be;
+015;3plm;ZYqX;;43;21;192;volit.;;;;;;volit.;disc;main;zero;(re)openMain;;                 [JHJW <Pr>] [L-RYWN <PC>] [>MRJ PJ W-HGJWN LBJ <Su>] [L-PNJK <Aj>];let the words of my mouth and.. be to a pleasure;let be;
 015;---;Voct;;44;21;0;-;;;;;;-;;;;;;                     [JHWH / YWRJ W-G>LJ <ap><Vo>];o YHWH;;

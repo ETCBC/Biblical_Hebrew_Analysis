@@ -3,7 +3,7 @@
 001;3sgm;xQt0;Attr;3;1;1013;ind.;;;;;;ind.;disc;2nd;retro;opnAttr2ndR;AttrDm;         [>CR <Re>] [DBR <Pr>] [L-JHWH <Co>] [>T DBRJ H-CJRH H-Z>T <Ob>] [B-JWM <Ti>];who/which has spoken the words of the song;has spoken;
 001;3sgm;ZQtX;RgRc;4;1;0;ind.;;;;;;ind.;disc;2nd;retro;opnDpLn2ndR;DepDm;              |  [HYJL <Pr>] [JHWH <Su>] [>WTW <Ob>] [M-KP KL >JBJW W-M-JD C>WL <Co>];YHWH has delivered him;has delivered;
 002;3sgm;Way0;Coor;5;1;1291;ind.;;;;>CR;;ind.;narr;main;zero;crd2ndR>NrFg;AttrDm;             [W-<Cj>] [J>MR <Pr>];and (who/which) said;;
-002;1sg-;ZYq0;;6;11;0;coh.;;;;;;coh.;disc;main;zero;opnDrSpMain;;                 [>RXMK <PO>];let me have compassion (with) you;let me have compassion (with);
+002;1sg-;ZYq0;;6;11;0;coh.;;;;;;coh.;disc;main;zero;opnDrSpMain;;                 [>RXMK <PO>];let me have compassion (with) you;let have compassion (with);
 002;---;Voct;;7;11;0;-;;;;;;-;;;;;;                      |   |   |  [JHWH / XZQJ <ap><Vo>];o YHWH;;
 003;---;NmCl;;8;11;0;nomin.;;;;;;nomin.;disc;main;;(re)openMain;;                      |   |  [JHWH <Su>] [SL<J W-MYWDTJ W-MPLVJ <PC>];YHWH is my rock and..;is;
 003;---;NmCl;;9;11;1731;nomin.;;;;;;nomin.;disc;main;;cntMain;;                      |   |       |  [>LJ <Su>] [YWRJ <PC>];my God is my rock;is;
@@ -17,7 +17,7 @@
 006;3pl-;ZQtX;;17;11;1151;ind.;;;;;;ind.;disc;2nd;retro;ctGvInf2ndR;;                      |           |      [QDMWNJ <PO>] [MWQCJ MWT <Su>];(now that/when) baits of death have been in front (of) me;have been in front (of);
 007;1sg-;xYq0;;18;11;612;non-vol.;;;;;;non-vol.;disc;main;zero;GivInf>Mn;;                      |          [B--YR / LJ <sp><Aj>] [>QR> <Pr>] [JHWH <Ob>];I call YHWH;call;
 007;1sg-;WxY0;;19;11;691;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;                      |               |  [W-<Cj>] [>L >LHJ <Co>] [>CW< <Pr>];and I cry;cry;
-007;3sgm;ZYq0;;20;11;152;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;                      |              [JCM< <Pr>] [M-HJKLW <Aj>] [QWLJ <Ob>];let him hear my sound;let him hear;
+007;3sgm;ZYq0;;20;11;152;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;                      |              [JCM< <Pr>] [M-HJKLW <Aj>] [QWLJ <Ob>];let him hear my sound;let hear;
 007;3sgf;WXYq;;21;11;492;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;cntMain;;                      |                    |  |  [W-<Cj>] [CW<TJ / L-PNJW <sp><Su>] [TBW> <Pr>] [B->ZNJW <Co>];and/but my cry should come (to);should come (to);
 008;3sgf;Way0;;22;111;1232;ind.;;;;;;ind.;narr;main;zero;opnNarrMn;;                      |                    | [W-<Cj>] [TG<C <Pr>];then she shook;;
 008;3sgf;WayX;Coor;23;111;1301;ind.;;;;;;ind.;narr;main;zero;crdNrMn;;                      |                    |      |   |   |   |  [W-<Cj>] [TR<C <Pr>] [H->RY <Su>];and the earth quaked;;
@@ -58,8 +58,8 @@
 020;3sgm;Way0;;58;11112;1311;ind.;;;;;;ind.;narr;main;zero;cntNrMn;;                      |                    |                  |      [W-<Cj>] [JWYJ>NJ <PO>] [L--MRXB <Co>];and he caused me to go out;;
 020;3sgm;ZYq0;;59;1111;111;volit.;;non-vol.;x;;narr;non-vol.;disc;main;zero;cntDiscInNar;;                      |                    |                 [JXLYNJ <PO>];yes/indeed, he rescues me;rescues;
 020;3sgm;xQt0;;60;1111;943;ind.;;;;;;ind.;disc;2nd;retro;opnSbLn2ndR;SubDm;                      |                    |                     [KJ <Cj>] [XPY <Pr>] [BJ <Co>];given that he has desired;has desired;
-021;3sgm;ZYqX;;61;112;0;volit.;;;;;;volit.;disc;main;zero;(re)openMain;;                      |                  [JGMLNJ <PO>] [JHWH <Su>] [K-YDQJ <Aj>];let YHWH deal fully (with) me;let YHWH deal fully (with);
-021;3sgm;xYq0;;62;112;581;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;cntMain;;                      |                       |   |  [K-BR JDJ <Aj>] [JCJB <Pr>] [LJ <Co>];let him cause to return;let him cause to return;
+021;3sgm;ZYqX;;61;112;0;volit.;;;;;;volit.;disc;main;zero;(re)openMain;;                      |                  [JGMLNJ <PO>] [JHWH <Su>] [K-YDQJ <Aj>];let YHWH deal fully (with) me;let deal fully (with);
+021;3sgm;xYq0;;62;112;581;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;cntMain;;                      |                       |   |  [K-BR JDJ <Aj>] [JCJB <Pr>] [LJ <Co>];let him cause to return;let cause to return;
 022;1sg-;xQt0;;63;112;943;ind.;;;;;;ind.;disc;2nd;retro;opnSbLn2ndR;SubDm;                      |                       |  [KJ <Cj>] [CMRTJ <Pr>] [DRKJ JHWH <Ob>];given that I have kept the ways of YHWH;have kept;
 022;1sg-;WxQ0;Coor;64;112;1061;ind.;;;;KJ;;ind.;disc;2nd;retro;crdSbLn2ndR;SubDm;                      |                       |   |  [W-<Cj>] [L> <Ng>] [RC<TJ <Pr>] [M->LHJ <Co>];and (given that) I have not been guilty;have been guilty;
 023;---;NmCl;;65;112;1693;nomin.;;;;;;nomin.;disc;main;;opnSbLnMain;SubDm;                      |                       |  [KJ <Cj>] [KL MCPVJW <Su>] [L-NGDJ <PC>];given that all of his justices is to my counterpart;is;
@@ -72,16 +72,16 @@
 026;2sgm;xYq0;;72;113;601;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;                          |   |   |  [<M GBR TMJM <Co>] [TTMM <Pr>];you are complete;are complete;
 027;2sgm;xYq0;;73;113;601;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;                          |   |   |  [<M NBR <Co>] [TTBRR <Pr>];you purge;purge;
 027;2sgm;WxY0;;74;113;691;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;                          |   |   |       |  [W-<Cj>] [<M <QC <Co>] [TTPTL <Pr>];and you twist;twist;
-028;2sgm;XxYq;;75;113;423;non-vol.;;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;                          |   |   |      [KJ <Cj>] [>TH <Su>] [<M <NJ <Ob>] [TWCJ< <Pr>];given that you(emph.) help a people;help;
+028;2sgm;XxYq;;75;113;423;non-vol.;;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;                          |   |   |      [KJ <Cj>] [>TH <Su>] [<M <NJ <Ob>] [TWCJ< <Pr>];given that you help a people;help;
 028;2sgm;WxY0;Coor;76;113;681;non-vol.;;;;KJ;;non-vol.;disc;main;zero;crdSbLnMain;SubDm;                          |   |   |          [W-<Cj>] [<JNJM RMWT <Ob>] [TCPJL <Pr>];and (given that) you cause eyes to be low;cause to be low;
-029;2sgm;xXYq;;77;113;423;non-vol.;;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;                          |   |  [KJ <Cj>] [>TH <Su>] [T>JR <Pr>] [NRJ <Ob>];given that you(emph.) cause my lamp to be light;cause to be light;
+029;2sgm;xXYq;;77;113;423;non-vol.;;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;                          |   |  [KJ <Cj>] [>TH <Su>] [T>JR <Pr>] [NRJ <Ob>];given that you cause my lamp to be light;cause to be light;
 029;3sgm;XYqt;Coor;78;113;412;non-vol.;;;;KJ;;non-vol.;disc;main;zero;crdSbLnMain;SubDm;                          |   |       |  [JHWH / >LHJ <ap><Su>] [JGJH <Pr>] [XCKJ <Ob>];(given that) YHWH causes my darkness to shine;causes to shine;
 030;1sg-;xYq0;;79;113;593;non-vol.;juss.;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;                          |   |      [KJ <Cj>] [BK <Aj>] [>RY <Pr>] [GDWD <Ob>];given that I run a band;run;
 030;1sg-;WxY0;Coor;80;113;691;non-vol.;;;;KJ;;non-vol.;disc;main;zero;crdSbLnMain;SubDm;                          |   |          [W-<Cj>] [B->LHJ <Aj>] [>DLG <Pr>] [CWR <Ob>];and (given that) I ascend a wall;ascend;
 031;---;CPen;;81;1131;0;-;;;;;;-;;;;(re)openMain;;                          |  [H->L <Fr>];concerning God;;
 031;-sgm;AjCl;;82;1131;0;nomin.;;;;;;nomin.;disc;main;;;;                          |       |   |   |  [TMJM <PC>] [DRKW <Su>];his way is complete;is;
 031;-sgf;AjCl;;83;1131;1731;nomin.;;;;;;nomin.;disc;main;;cntMain;;                          |       |   |  [>MRT JHWH <Su>] [YRWPH <PC>];the word of YHWH is being melted one;is;
-031;---;NmCl;;84;1131;1731;nomin.;;;;;;nomin.;disc;main;;cntMain;;                          |       |   |      [MGN <PC>] [HW> <Su>] [L-KL <Aj>];he(emph.) is a shield;is;
+031;---;NmCl;;84;1131;1731;nomin.;;;;;;nomin.;disc;main;;cntMain;;                          |       |   |      [MGN <PC>] [HW> <Su>] [L-KL <Aj>];he is a shield;is;
 031;-plm;Ptcp;Attr;85;1131;1643;ind.;;;;;;ind.;disc;main;;opnAttrMain;AttrDm;                          |       |   |          [H-<Re>] [XSJM <PC>] [BW <Co>];who/which are seeking refuge;are seeking refuge;
 032;---;NmCl;;86;1131;1733;nomin.;;;;;;nomin.;disc;MAIN;;opnSbLnMain;SubDm;                          |       |  [KJ <Cj>] [MJ <PC>] [>LWH <Su>] [M-BL<DJ JHWH <Aj>];given that who is a god?;is;
 032;---;NmCl;Coor;87;1131;1732;nomin.;;;;MJ;;nomin.;disc;MAIN;;crdSbLnMain;SubDm;                          |       |      [W-<Cj>] [MJ <PC>] [YWR <Su>] [ZWLTJ >LHJNW <Aj>];and who is a rock?;is;
@@ -128,7 +128,7 @@
 046;3plm;WYq0;;128;113;261;volit.;;;;;narr;non-vol.;disc;main;zero;cntDiscInNar;;                                          |              [W-<Cj>] [JXRGW <Pr>] [M-MSGRWTJHM <Co>];and yes/indeed, they come out;come out;
 047;-sgm;AjCl;;129;1132;0;nomin.;;;;;;nomin.;disc;main;;(re)openMain;;                                         [XJ <PC>] [JHWH <Su>];YHWH is alive;is;
 047;-sgm;Ptcp;;130;1132;1641;ind.;;;;;;ind.;disc;main;;cntMain;;                                              |   |   |   |  [W-<Cj>] [BRWK <PC>] [YWRJ <Su>];and my rock is being blessed;is being blessed;
-047;3sgm;WYqX;;131;1132;371;volit.;;;;;;volit.;disc;main;zero;cntMain;;                                              |   |   |  [W-<Cj>] [JRWM <Pr>] [>LWHJ JC<J <Su>];so let God of my help be high;let God of my help be high;
+047;3sgm;WYqX;;131;1132;371;volit.;;;;;;volit.;disc;main;zero;cntMain;;                                              |   |   |  [W-<Cj>] [JRWM <Pr>] [>LWHJ JC<J <Su>];so let God of my help be high;let be high;
 048;---;Ellp;;132;1132;0;-;;;;;;-;;;;;;                                              |   |  [H->L <Su>];God;;
 048;-sgm;Ptcp;Attr;133;1132;0;ind.;;;;;;ind.;disc;main;;opnAttrMain;AttrDm;                                              |   |      [H-<Re>] [NWTN <PC>] [NQMWT <Ob>] [LJ <Co>];who/which is giving vengeances;is giving;
 048;3sgm;Way0;Coor;134;1132;1351;ind.;;;;H;;ind.;narr;main;zero;crdAttr>Nar;AttrDm;                                              |   |            | [W-<Cj>] [JDBR <Pr>] [<MJM <Ob>] [TXTJ <Aj>];and (who/which) pushed back peoples;;
@@ -137,6 +137,6 @@
 049;2sgm;xYq0;;137;1132;601;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;                                              |       |  [M->JC XMS <Co>] [TYJLNJ <PO>];you deliver me;deliver;
 050;1sg-;xYq0;;138;1132;602;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;                                              |      [<L KN <Aj>] [>WDK <PO>] [B--GWJM <Aj>];therefore I praise you;praise;
 050;---;Voct;;139;1132;0;-;;;;;;-;;;;;;                                              |           |  [JHWH <Vo>];o YHWH;;
-050;1sg-;WxY0;Coor;140;1132;691;non-vol.;coh.;;;<L KN;;coh.;disc;main;zero;crdMain;;                                              |          [W-<Cj>] [L-CMK <Co>] [>ZMRH <Pr>];and (therefore) let me sing (of);let me sing (of);
+050;1sg-;WxY0;Coor;140;1132;691;non-vol.;coh.;;;<L KN;;coh.;disc;main;zero;crdMain;;                                              |          [W-<Cj>] [L-CMK <Co>] [>ZMRH <Pr>];and (therefore) let me sing (of);let sing (of);
 051;-sgm;Ptcp;;141;1132;0;ind.;;;;;;ind.;disc;main;;(re)openMain;;                                             [MGDL <PC>] [JCW<WT MLKW <Ob>];he/it is causing the salvations of his king to be strong;is causing to be strong;
 051;-sgm;Ptcp;;142;1132;1631;ind.;;;;;;ind.;disc;main;;cntMain;;                                                 [W-<Cj>] [<FH <PC>] [XSD <Ob>] [L-MCJXW / L-DWD W-L-ZR<W <ap><Co>] [<D <WLM <Ti>];and he/she/it is making/doing loyalty;is making/doing;

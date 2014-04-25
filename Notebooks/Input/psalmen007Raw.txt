@@ -13,10 +13,10 @@
 005;1sg-;xQt0;;13;2;1013;ind.;;;;;;ind.;narr;2nd;retro;opnProtNr2nd;prot.;      |   |       |      [>M <Cj>] [GMLTJ <Pr>] [CWLMJ <Ob>] [R< <Ob>];if I had dealt fully (with) my completer;had dealt fully (with);
 005;1sg-;Way0;Coor;14;2;1291;ind.;;;;>M;;ind.;narr;main;zero;cntProt>NrMn;prot.;      |   |       |          [W-<Cj>] [>XLYH <Pr>];and (if) I rescued;;
 005;-sgm;Ptcp;ObCl;15;2;0;ind.;;;;;;ind.;disc;main;;opnDpLnMain;DepDm;      |   |       |              [YWRRJ <po>] [RJQM <Mo>];him/her who is being hostile me;is being hostile;
-006;3sgm;ZYqX;;16;2;162;volit.;;;;;;volit.;disc;main;zero;opnApodMain;apod.;      |   |      [JRDP <Pr>] [>WJB <Su>] [NPCJ <Ob>];then let a hostile one pursue my soul;let a hostile one pursue;
-006;3sgm;WYq0;Coor;17;2;241;volit.;juss.;;;;;volit.;disc;main;zero;cntApodMain;apod.;      |   |          [W-<Cj>] [JFG <Pr>];and let him overtake;let him overtake;
-006;3sgm;WYq0;Coor;18;2;241;volit.;;;;;;volit.;disc;main;zero;cntApodMain;apod.;      |   |          [W-<Cj>] [JRMS <Pr>] [L-->RY <Co>] [XJJ <Ob>];and let him trample my lives;let him trample;
-006;3sgm;WxY0;Coor;19;2;671;non-vol.;juss.;;;;;volit.;disc;main;zero;cntApodMain;apod.;      |   |              [W-<Cj>] [KBWDJ <Ob>] [L--<PR <Co>] [JCKN <Pr>];and let him cause my weight to dwell;let him cause to dwell;
+006;3sgm;ZYqX;;16;2;162;volit.;;;;;;volit.;disc;main;zero;opnApodMain;apod.;      |   |      [JRDP <Pr>] [>WJB <Su>] [NPCJ <Ob>];then let a hostile one pursue my soul;let pursue;
+006;3sgm;WYq0;Coor;17;2;241;volit.;juss.;;;;;volit.;disc;main;zero;cntApodMain;apod.;      |   |          [W-<Cj>] [JFG <Pr>];and let him overtake;let overtake;
+006;3sgm;WYq0;Coor;18;2;241;volit.;;;;;;volit.;disc;main;zero;cntApodMain;apod.;      |   |          [W-<Cj>] [JRMS <Pr>] [L-->RY <Co>] [XJJ <Ob>];and let him trample my lives;let trample;
+006;3sgm;WxY0;Coor;19;2;671;non-vol.;juss.;;;;;volit.;disc;main;zero;cntApodMain;apod.;      |   |              [W-<Cj>] [KBWDJ <Ob>] [L--<PR <Co>] [JCKN <Pr>];and let him cause my weight to dwell;let cause to dwell;
 006;---;MSyn;;20;2;0;-;;;;;;-;;MAIN;;;;      |   |                  [SLH <Ij>];sela;;
 007;2sgm;ZIm0;;21;2;0;imperat.;;;;;;imperat.;disc;main;zero;(re)openMain;;      |  [QWMH <Pr>];arise (against);arise (against);
 007;---;Voct;;22;2;0;-;;;;;;-;;;;;;      |   |   |  [JHWH <Vo>];o YHWH;;
@@ -30,7 +30,7 @@
 009;2sgm;ZIm0;;30;2;11;imperat.;;;;;;imperat.;disc;main;zero;cntMain;;      |      [CPVNJ <PO>];judge me;judge;
 009;---;Voct;;31;2;0;-;;;;;;-;;;;;;      |           |   |   |  [JHWH <Vo>];o YHWH;;
 009;---;Defc;;32;2;0;-;;;;;;-;;;;;;      |           |   |  [K-YDQJ W-K-TMJ / <LJ <sp><Aj>];!;;
-010;3sgm;ZYqX;;33;2;102;volit.;;;;;;volit.;disc;main;zero;cntMain;;      |           |  [JGMR <Pr>] [N> <Ij>] [R< RC<JM <Su>];yeah, let an evil one of guilty ones end;let an evil one of guilty ones end;
+010;3sgm;ZYqX;;33;2;102;volit.;;;;;;volit.;disc;main;zero;cntMain;;      |           |  [JGMR <Pr>] [N> <Ij>] [R< RC<JM <Su>];yeah, let an evil one of guilty ones end;let end;
 010;2sgm;WYq0;;34;2;221;juss.;;;;;;juss.;disc;main;zero;cntMain;;      |          [W-<Cj>] [TKWNN <Pr>] [YDJQ <Ob>];and you should prepare a just one;should prepare;
 010;-sgm;Ptcp;;35;2;0;ind.;;;;;;ind.;disc;main;;(re)openMain;;      |              [W-<Cj>] [BXN <PC>] [LBWT W-KLJWT <Ob>] [>LHJM YDJQ <Su>];now, God is examining hearts and..;is examining;
 011;---;NmCl;;36;21;0;nomin.;;;;;;nomin.;disc;main;;(re)openMain;;     [MGNJ <Su>] [<L >LHJM <PC>];my shield is upon God;is;
@@ -51,7 +51,7 @@
 016;3sgm;Way0;;51;21;1291;ind.;;;;;;ind.;narr;main;zero;ctAtInf>NrFg;;          |               |        | [W-<Cj>] [JXPRHW <PO>];and (when) he dug him;;
 016;3sgm;Way0;;52;21;1291;ind.;;;;;;ind.;narr;main;zero;AntInf>Mn;;          |               |      [W-<Cj>] [JPL <Pr>] [B-CXT <Aj>];he fell;;
 016;3sgm;ZYq0;Attr;53;21;173;volit.;;;;;attr.;non-vol.;disc;main;zero;opnAttrMain;AttrDm;          |               |          [JP<L <Pr>];(in/for/with/of) whom/which he makes/does;makes/does;
-017;3sgm;ZYqX;;54;21;141;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;          |              [JCWB <Pr>] [<MLW <Su>] [B-R>CW <Co>];let his labour return;let his labour return;
+017;3sgm;ZYqX;;54;21;141;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;          |              [JCWB <Pr>] [<MLW <Su>] [B-R>CW <Co>];let his labour return;let return;
 017;3sgm;WxXY;;55;21;491;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;cntMain;;          |                  [W-<Cj>] [<L QDQDW <Co>] [XMSW <Su>] [JRD <Pr>];and his violence should descend;should descend;
-018;1sg-;ZYq0;;56;211;0;coh.;;;;;;coh.;disc;main;zero;(re)openMain;;         [>WDH <Pr>] [JHWH <Ob>] [K-YDQW <Aj>];let me praise YHWH;let me praise;
-018;1sg-;WYq0;;57;211;241;coh.;coh.;;;;;coh.;disc;main;zero;cntMain;;             [W-<Cj>] [>ZMRH <Pr>] [CM JHWH <LJWN <Ob>];and let me sing (of) the name of YHWH;let me sing (of);
+018;1sg-;ZYq0;;56;211;0;coh.;;;;;;coh.;disc;main;zero;(re)openMain;;         [>WDH <Pr>] [JHWH <Ob>] [K-YDQW <Aj>];let me praise YHWH;let praise;
+018;1sg-;WYq0;;57;211;241;coh.;coh.;;;;;coh.;disc;main;zero;cntMain;;             [W-<Cj>] [>ZMRH <Pr>] [CM JHWH <LJWN <Ob>];and let me sing (of) the name of YHWH;let sing (of);

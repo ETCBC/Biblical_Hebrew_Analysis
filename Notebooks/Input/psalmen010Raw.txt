@@ -3,7 +3,7 @@
 001;2sgm;xYq0;;3;1;0;non-vol.;;;;;;non-vol.;disc;MAIN;zero;;;      |   |   |  [T<MD <Pr>] [B-RXWQ <Co>];do you stand?;do stand;
 001;2sgm;ZYq0;Coor;4;1;151;juss.;;;;LMH;MDMblock;non-vol.;disc;MAIN;zero;crdMain;;      |   |  [T<LJM <Pr>] [L-<TWT / B--YRH <sp><Ti>];(why) do you hide?;do hide;
 002;3sgm;xYq0;;5;1;582;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;      |   |      [B-G>WT RC< <Aj>] [JDLQ <Pr>] [<NJ <Ob>];he sets ablaze a humble one;sets ablaze;
-002;3plm;ZYq0;;6;1;152;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;      |   |           |   |  [JTPFW <Pr>] [B-MZMWT <Aj>];let them be seized;let them be seized;
+002;3plm;ZYq0;;6;1;152;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;      |   |           |   |  [JTPFW <Pr>] [B-MZMWT <Aj>];let them be seized;let be seized;
 002;3pl-;xQt0;Attr;7;1;943;ind.;;;;;;ind.;disc;2nd;retro;opnAttr2ndR;AttrDm;      |   |           |   |      [ZW <Re>] [XCBW <Pr>];who/which have accounted;have accounted;
 003;3sgm;xQtX;;8;1;963;ind.;;;;;;ind.;disc;2nd;retro;opnSbLn2ndR;SubDm;      |   |           |  [KJ <Cj>] [HLL <Pr>] [RC< <Su>] [<L T>WT NPCW <Co>];given that a guilty one has praised;has praised;
 003;3sgm;WxQ0;Coor;9;1;1061;ind.;;;;KJ;;ind.;disc;2nd;retro;crdSbLn2ndR;SubDm;      |   |           |       |  [W-<Cj>] [BY< <Ob>] [BRK <Pr>];and (given that) he has blessed an off-cutter;has blessed;
@@ -11,10 +11,10 @@
 004;3sgm;XxYq;;11;1;422;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;      |   |          [RC< <Su>] [K-GBH >PW <Aj>] [BL <Ng>] [JDRC <Pr>];a guilty one does not inquire;does inquire;
 004;---;NmCl;PcCl;12;1;0;ng.exst.;;;;;;ng.exst.;disc;main;;opnDpLnMain;DepDm;      |   |               |   |   |   |  [>JN <NC>] [>LHJM <PC>];that there is no God;is;
 004;---;NmCl;;13;1;1671;nomin.;;;;;;nomin.;disc;main;;cntMain;;      |   |               |   |   |  [KL MZMWTJW <Su>];is all of his purposes;is;
-005;3plm;ZYqX;;14;1;121;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;      |   |               |   |  [JXJLW <Pr>] [DRKW <Su>] [B-KL <T <Ti>];let his ways endure;let his ways endure;
+005;3plm;ZYqX;;14;1;121;volit.;;non-vol.;x;;;volit.;disc;main;zero;cntMain;;      |   |               |   |  [JXJLW <Pr>] [DRKW <Su>] [B-KL <T <Ti>];let his ways endure;let endure;
 005;---;NmCl;;15;1;1662;nomin.;;;;;;nomin.;disc;main;;cntMain;;      |   |               |   |       |  [MRWM <PC>] [MCPVJK <Su>] [M-NGDW <Aj>];your justices are a high place;are;
 005;---;CPen;;16;1;111;-;;;;;;-;;;;cntMain;;      |   |               |   |      [KL YWRRJW <Fr>];concerning all of his hostile ones;;
-005;3sgm;ZYq0;;17;1;0;volit.;;;;;;volit.;disc;main;zero;;;      |   |               |   |          [JPJX <Pr>] [BHM <Co>];let him wheeze;let him wheeze;
+005;3sgm;ZYq0;;17;1;0;volit.;;;;;;volit.;disc;main;zero;;;      |   |               |   |          [JPJX <Pr>] [BHM <Co>];let him wheeze;let wheeze;
 006;3sgm;ZQt0;;18;1;1131;ind.;;;;;;ind.;disc;2nd;retro;opn2ndR;;      |   |               |  [>MR <Pr>] [B-LBW <Co>];he has said;has said;
 006;1sg-;xYq0;;19;11;0;non-vol.;;;;;;non-vol.;disc;main;zero;opnDrSpMain;;      |   |               |       |  [BL <Ng>] [>MWV <Pr>] [L-DR W-DR <Ti>];I do not totter;do totter;
 006;---;NmCl;;20;11;1683;nomin.;;;;;;nomin.;disc;main;;opnSbLnMain;SubDm;      |   |               |       |      [>CR <Cj>] [L> <Ng>] [B-R< <PC>];since/when he/it/they is/are not in/among evil;is/are;
@@ -44,10 +44,10 @@
 013;3sgm;ZQt0;Coor;44;13;1151;ind.;;;;<L MH;;ind.;disc;MAIN;retro;crdMn>retro;;      |   |   |      [>MR <Pr>] [B-LBW <Co>];(for what) has he said?;has said;
 013;2sgm;xYq0;;45;131;0;non-vol.;;;;;;non-vol.;disc;main;zero;opnDrSpMain;;      |   |   |          [L> <Ng>] [TDRC <Pr>];you do not inquire;do inquire;
 014;2sgm;ZQt0;;46;13;1111;ind.;;;;;;ind.;disc;2nd;retro;precGivInf;;      |   |  [R>TH <Pr>];now that/when you have seen;have seen;
-014;2sgm;XxYq;;47;13;433;non-vol.;;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;      |   |       |  [KJ <Cj>] [>TH <Su>] [<ML W-K<S <Ob>] [TBJV <Pr>];given that you(emph.) look at a labour and..;look at;
+014;2sgm;XxYq;;47;13;433;non-vol.;;;;;;non-vol.;disc;main;zero;opnSbLnMain;SubDm;      |   |       |  [KJ <Cj>] [>TH <Su>] [<ML W-K<S <Ob>] [TBJV <Pr>];given that you look at a labour and..;look at;
 014;---;InfC;AjCl;48;13;0;inf.;;;;;;inf.;;;;opnDpLn;DepDm;      |   |       |      [L-TT <Pr>] [B-JDK <Co>];in order to give;give;
 014;3sgm;xYqX;;49;13;612;non-vol.;;;;;;non-vol.;disc;main;zero;GivInf>Mn;;      |   |      [<LJK <Co>] [J<ZB <Pr>] [XLKH <Su>];an unfortunate one leaves;leaves;
-014;2sgm;xXQt;;50;13;782;ind.;;;;;;ind.;disc;2nd;retro;follArgum;;      |   |          [JTWM <Ob>] [>TH <Su>] [HJJT <Pr>] [<WZR <PC>];as/since you(emph.) have been a helper;have been;
+014;2sgm;xXQt;;50;13;782;ind.;;;;;;ind.;disc;2nd;retro;follArgum;;      |   |          [JTWM <Ob>] [>TH <Su>] [HJJT <Pr>] [<WZR <PC>];as/since you have been a helper;have been;
 015;2sgm;ZIm0;;51;13;11;imperat.;;;;;;imperat.;disc;main;zero;cntMain;;      |  [CBR <Pr>] [ZRW< RC< <Ob>];break an arm of a guilty one!;break;
 015;---;CPen;;52;13;101;-;;;;;;-;;;;cntMain;;      |      [W-<Cj>] [R< <Fr>];and concerning an evil one;;
 015;2sgm;ZYq0;;53;13;0;juss.;;;;;;juss.;disc;main;zero;;;      |          [TDRWC <Pr>] [RC<W <Ob>];you should inquire his guilt;should inquire;

@@ -7,7 +7,7 @@
 002;3pl-;xQtX;;7;2;973;ind.;;;;;;ind.;disc;2nd;retro;precGivInf;SubDm;      |   |  [KJ <Cj>] [PSW <Pr>] [>MWNJM <Su>] [M-BNJ >DM <Co>];given that now that/when faithful ones have vanished;have vanished;
 003;3plm;xYq0;Coor;8;2;612;non-vol.;;;;KJ;;non-vol.;disc;main;zero;GivInf>Mn;SubDm;      |   |      [CW> <Ob>] [JDBRW <Pr>] [>JC <Aj>] [>T R<HW <Co>];(given that) they speak (of) a vanity;speak (of);
 003;3plm;xYq0;Coor;9;2;601;non-vol.;;;;KJ;;non-vol.;disc;main;zero;crdSbLnMain;SubDm;      |   |          [FPT XLQWT <Aj>] [B-LB W-LB <Co>] [JDBRW <Pr>];(given that) they speak (of);speak (of);
-004;3sgm;ZYqX;;10;21;0;volit.;juss.;;;;;volit.;disc;main;zero;(re)openMain;;      |  [JKRT <Pr>] [JHWH <Su>] [KL FPTJ XLQWT <Ob>];let YHWH cut off all of the lips of smooth;let YHWH cut off;
+004;3sgm;ZYqX;;10;21;0;volit.;juss.;;;;;volit.;disc;main;zero;(re)openMain;;      |  [JKRT <Pr>] [JHWH <Su>] [KL FPTJ XLQWT <Ob>];let YHWH cut off all of the lips of smooth;let cut off;
 004;---;Ellp;;11;21;0;-;;;;;;-;;;;;;      |       |   |   |  [LCWN <Ob>]; a tongue;;
 004;-sgf;Ptcp;Attr;12;21;0;ind.;;;;;;ind.;disc;main;;opnAttrMain;AttrDm;      |       |   |   |      [MDBRT <PC>] [GDLWT <Ob>];who/which is speaking great ones;is speaking;
 005;3pl-;xQt0;Attr;13;21;943;ind.;;;;;;ind.;disc;2nd;retro;opnAttr2ndR;AttrDm;      |       |   |  [>CR <Re>] [>MRW <Pr>];who/which have said;have said;
@@ -22,7 +22,7 @@
 007;---;Ellp;;22;213;0;-;;;;;;-;;;;;;      |          [KSP <PC>];silver;;
 007;-sgm;Ptcp;Attr;23;213;0;ind.;;;;;;ind.;disc;main;;opnAttrMain;AttrDm;      |              [YRWP <PC>] [B-<LJL <Aj>] [L-->RY <Lo>];who/which is being melted;is being melted;
 007;-sgm;Ptcp;Coor;24;213;1631;ind.;;;;;;ind.;disc;main;;crdAttrMain;AttrDm;      |              [MZQQ <PC>] [CB<TJM <Aj>];who/which is being filtered;is being filtered;
-008;---;Defc;;25;2;0;-;;;;;;-;;;;(re)openMain;;     [>TH <Su>];you(emph.);;
+008;---;Defc;;25;2;0;-;;;;;;-;;;;(re)openMain;;     [>TH <Su>];you;;
 008;---;Voct;;26;2;0;-;;;;;;-;;;;;;          |   |   |  [JHWH <Vo>];o YHWH;;
 008;2sgm;XYqt;;27;2;0;non-vol.;;;;;;non-vol.;disc;main;zero;;;          |   |  [TCMRM <PO>];keep them;keep;
 008;2sgm;ZYq0;;28;2;131;juss.;;non-vol.;non-vol.;;;non-vol.;disc;main;zero;cntMain;;          |  [TYRNW <PO>] [MN H-DWR / ZW <sp><Co>] [L-<WLM <Ti>];you watch him;watch;

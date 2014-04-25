@@ -17,7 +17,7 @@
 004;3plm;XYqt;;17;2;411;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;          |  [<P<PJW <Su>] [JBXNW <Pr>] [BNJ >DM <Ob>];his beaming eyes examine sons of a human;examine;
 005;3sgm;XxYq;;18;2;471;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;         [JHWH <Su>] [YDJQ <Ob>] [JBXN <Pr>];YHWH examines a just one;examines;
 005;3sgf;WxQX;;19;2;1041;ind.;;;;;;ind.;disc;2nd;retro;parSit>2ndR;;              |   |  [W-<Cj>] [RC< W->HB XMS <Ob>] [FN>H <Pr>] [NPCW <Su>];while his soul has hated a guilty one and..;has hated;
-006;3sgm;ZYq0;;20;2;131;volit.;juss.;;;;;volit.;disc;main;zero;cntMain;;              |  [JMVR <Pr>] [<L RC<JM <Co>] [PXJM >C W-GPRJT <Ob>];let him cause bird-traps to rain;let him cause to rain;
+006;3sgm;ZYq0;;20;2;131;volit.;juss.;;;;;volit.;disc;main;zero;cntMain;;              |  [JMVR <Pr>] [<L RC<JM <Co>] [PXJM >C W-GPRJT <Ob>];let him cause bird-traps to rain;let cause to rain;
 006;---;NmCl;;21;2;1662;nomin.;;;;;;nomin.;disc;main;;cntMain;;              |      [W-<Cj>] [RWX ZL<PWT <PC>] [MNT KWSM <Su>];and the portion of their cup is a wind of irritations;is;
 007;-sgm;AjCl;;22;2;1673;nomin.;;;;;;nomin.;disc;main;;opnSbLnMain;SubDm;             [KJ <Cj>] [YDJQ <PC>] [JHWH <Su>];given that YHWH is just;is;
 007;3sgm;xQt0;Coor;23;2;1011;ind.;;;;KJ;;ind.;disc;2nd;retro;crdSbLn>2ndR;SubDm;                  |  [YDQWT <Ob>] [>HB <Pr>];(given that) he has loved justices;has loved;

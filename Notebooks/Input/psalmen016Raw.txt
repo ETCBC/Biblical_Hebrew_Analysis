@@ -3,13 +3,13 @@
 001;---;Voct;;3;2;0;-;;;;;;-;;;;;;      |   |   |  [>L <Vo>];o God;;
 001;1sg-;xQt0;;4;2;933;ind.;;;;;;ind.;disc;2nd;retro;opnSbLn2ndR;SubDm;      |   |  [KJ <Cj>] [XSJTJ <Pr>] [BK <Co>];given that I have sought refuge;have sought refuge;
 002;2sgf;ZQt0;;5;21;0;ind.;;;;;;ind.;disc;2nd;retro;opnDrSp2ndR;;      |  [>MRT <Pr>] [L-JHWH <Co>];you have said;have said;
-002;---;NmCl;;6;211;0;nomin.;;;;;;nomin.;disc;main;;opnDrSpMain;;      |        | [>DNJ <PC>] [>TH <Su>];you(emph.) are Adonai;are;
+002;---;NmCl;;6;211;0;nomin.;;;;;;nomin.;disc;main;;opnDrSpMain;;      |        | [>DNJ <PC>] [>TH <Su>];you are Adonai;are;
 002;---;NmCl;;7;211;1732;nomin.;;;;;;nomin.;disc;main;;cntMain;;      |        |     [VWBTJ <Su>] [BL <Ng>] [<LJK <PC>];my what is good is not upon you;is;
 003;---;Ellp;;8;21;0;-;;;;;;-;;;;;;      |      [L-QDWCJM <Co>];;;
-003;---;NmCl;Attr;9;21;0;nomin.;;;;;;nomin.;disc;main;;opnAttrMain;AttrDm;      |           |   |  [>CR <Re>] [B-->RY <PC>] [HMH <Su>];for whom/which is true that they(emph.) are in/among the earth;are;
+003;---;NmCl;Attr;9;21;0;nomin.;;;;;;nomin.;disc;main;;opnAttrMain;AttrDm;      |           |   |  [>CR <Re>] [B-->RY <PC>] [HMH <Su>];for whom/which is true that they are in/among the earth;are;
 003;---;Defc;;10;21;0;-;;;;;;-;;;;;;      |           |  [W-/ >DJRJ <pa><cj>];and;;
 003;---;NmCl;Attr;11;21;0;nomin.;;;;;;nomin.;disc;main;;opnAttrMain;AttrDm;      |           |      [KL XPYJ <Su>] [BM <PC>];(in/for/with/of) whom/which all of my pleasure is;is;
-004;3plm;ZYqX;;12;212;0;volit.;;;;;;volit.;disc;main;zero;opnDrSpMain;;      |          [JRBW <Pr>] [<YBWTM <Su>];let their pains be many;let their pains be many;
+004;3plm;ZYqX;;12;212;0;volit.;;;;;;volit.;disc;main;zero;opnDrSpMain;;      |          [JRBW <Pr>] [<YBWTM <Su>];let their pains be many;let be many;
 004;3pl-;xQt0;;13;212;941;ind.;;;;;;ind.;disc;2nd;retro;follGivInf;;      |               |  [>XR <Ob>] [MHRW <Pr>];now that/when they have obtained an other one;have obtained;
 004;1sg-;xYq0;;14;212;582;non-vol.;;volit.;x;;;non-vol.;disc;main;zero;cntMain;;      |              [BL <Ng>] [>SJK <Pr>] [NSKJHM / M-DM <sp><Ob>];I do not pour their libations;do pour;
 004;1sg-;WxY0;;15;212;691;non-vol.;;;;;;non-vol.;disc;main;zero;cntMain;;      |                  [W-<Cj>] [BL <Ng>] [>F> <Pr>] [>T CMWTM <Ob>] [<L FPTJ <Co>];and I do not lift their names;do lift;
@@ -17,7 +17,7 @@
 005;-sgm;Ptcp;;17;2;0;ind.;;;;;;ind.;disc;main;;;;         [>TH <Su>] [TWMJK <PC>] [GWRLJ <Ob>];you are grasping my lot;are grasping;
 006;3pl-;XQtl;;18;2;822;ind.;;;;;;ind.;disc;2nd;retro;opn2ndR;;              |   |  [XBLJM <Su>] [NPLW <Pr>] [LJ <Co>] [B--N<MJM <Co>];cords have fallen;have fallen;
 006;3sgf;XQtl;;19;2;792;ind.;;;;;;ind.;disc;2nd;retro;cnt2ndR;;              |   |      [>P NXLT <Su>] [CPRH <Pr>] [<LJ <Aj>];even a heritage has been pleasing;has been pleasing;
-007;1sg-;ZYq0;;20;2;0;coh.;;;;;;coh.;disc;main;zero;(re)openMain;;              |  [>BRK <Pr>] [>T JHWH <Ob>];let me bless YHWH;let me bless;
+007;1sg-;ZYq0;;20;2;0;coh.;;;;;;coh.;disc;main;zero;(re)openMain;;              |  [>BRK <Pr>] [>T JHWH <Ob>];let me bless YHWH;let bless;
 007;3sgm;xQt0;Attr;21;2;943;ind.;;;;;;ind.;disc;2nd;retro;opnAttr2ndR;AttrDm;              |       |   |  [>CR <Re>] [J<YNJ <PO>];who/which has advised me;has advised;
 007;3pl-;xQtX;;22;2;941;ind.;;;;;;ind.;disc;2nd;retro;follGivInf;;              |       |  [>P LJLWT <Ti>] [JSRWNJ <PO>] [KLJWTJ <Su>];now that/when my kidneys have chastised me;have chastised;
 008;1sg-;ZQt0;;23;2;1121;ind.;;;;;;ind.;disc;2nd;retro;follGivInf;;              |      [CWJTJ <Pr>] [JHWH <Ob>] [L-NGDJ <Co>] [TMJD <Aj>];now that/when I have placed YHWH;have placed;

@@ -288,7 +288,7 @@ def analyze_transcription(data, conversion):
 
 def getTranslation(translation, verb):
     if translation == "":
-        return ""
+        return "---"
     result = ""
     sign = ""
     inMDM = False
