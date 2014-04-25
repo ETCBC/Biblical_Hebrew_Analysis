@@ -25,8 +25,8 @@
 007;---;NmCl;;25;21;1721;nomin.;;;;;;nomin.;disc;main;;cntMain;;      |      [JHWH <Su>] [<ZJ W-MGNJ <PC>];YHWH is my protection and..;is;
 007;3sgm;xQtX;;26;21;1012;ind.;;;;;;ind.;narr;2nd;retro;precAntInf;;      |       |  [BW <Co>] [BVX <Pr>] [LBJ <Su>];when my heart had trusted;had trusted;
 007;1sg-;WQt0;;27;21;1471;non-vol.;;;;;;non-vol.;narr;2nd;retro;ctAtInf2ndR;;      |       |       |  [W-<Cj>] [N<ZRTJ <Pr>];and (when) I had been helped;had been helped;
-007;3sgm;WayX;;28;21;1281;ind.;;;;;;ind.;narr;main;zero;AntInf>Mn;;      |       |   || [W-<Cj>] [J<LZ <Pr>] [LBJ <Su>];my heart rejoiced;;
-007;1sg-;WxY0;;29;21;711;non-vol.;;;;;;non-vol.;disc;main;zero;narr>disc;;      |       |   ||   | [W-<Cj>] [M-CJRJ <Aj>] [>HWDNW <PO>];and yes/indeed, I praise him;praise;
+007;3sgm;WayX;;28;21;1281;ind.;;;;;;ind.;narr;main;zero;AntInf>Mn;;      |       |      [W-<Cj>] [J<LZ <Pr>] [LBJ <Su>];my heart rejoiced;;
+007;1sg-;WxY0;;29;21;711;non-vol.;;;;;;non-vol.;disc;main;zero;narr>disc;;      |       |        | [W-<Cj>] [M-CJRJ <Aj>] [>HWDNW <PO>];and yes/indeed, I praise him;praise;
 008;---;NmCl;;30;21;1731;nomin.;;;;;;nomin.;disc;main;;cntMain;;      |      [JHWH <Su>] [<Z / LMW <sp><PC>];YHWH is a protection;is;
 008;---;NmCl;;31;21;1731;nomin.;;;;;;nomin.;disc;main;;cntMain;;      |          [W-<Cj>] [M<WZ JCW<WT MCJXW <PC>] [HW> <Su>];and he is the fort of the salvations of his anointed;is;
 009;2sgm;ZIm0;;32;2;0;imperat.;;;;;;imperat.;disc;main;zero;(re)openMain;;     [HWCJ<H <Pr>] [>T <MK <Ob>];help your people!;help;
