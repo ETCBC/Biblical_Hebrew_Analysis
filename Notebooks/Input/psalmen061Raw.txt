@@ -22,6 +22,6 @@
 007;2sgm;xYq0;;22;2;0;non-vol.;;;;;;non-vol.;disc;main;zero;;(re)openMain;;     [JMJM <Ob>] [<L JMJ MLK <Co>] [TWSJP <Pr>];you add days;add;
 007;---;NmCl;;23;2;1682;nomin.;;;;;;nomin.;disc;main;;;cntMain;;          |   |  [CNWTJW <Su>] [KMW DR W-DR <PC>];his years are like a generation and..;are;
 008;3sgm;ZYq0;;24;2;152;volit.;;non-vol.;x;;;volit.;disc;main;zero;;cntMain;;          |  [JCB <Pr>] [<WLM <Ti>] [L-PNJ >LHJM <Co>];let him sit (in);let sit (in);
-008;3plm;XxYq;;25;2;402;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;;cntMain;;          |      [XSD / W-/ >MT <pa><cj><Su>] [MN <Mo>] [JNYRHW <PO>];loyalty should watch him;should watch;
+008;3plm;XxYq;;25;2;402;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;;cntMain;;          |      [XSD W->MT <Su>] [MN <Mo>] [JNYRHW <PO>];loyalty and.. should watch him;should watch;
 009;1sg-;xYq0;;26;2;602;non-vol.;coh.;;;;;coh.;disc;main;zero;;cntMain;;         [KN <Mo>] [>ZMRH <Pr>] [CMK <Ob>] [L-<D <Ti>];thus let me sing (of) your name;let sing (of);
 009;---;InfC;AjCl;27;2;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;             [L-CLMJ <Ps>] [NDRJ <Ob>] [JWM JWM <Ti>];in order to complete my vows;complete;

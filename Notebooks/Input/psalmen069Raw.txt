@@ -34,12 +34,12 @@
 009;---;Ellp;;34;2;0;-;;;;;;-;;;;;;SubDm;      |           |           |      [W-<Cj>] [NKRJ <PC>] [L-BNJ >MJ <Co>];and foreign;;
 010;3sgf;xXQt;;35;2;793;ind.;;;;;;ind.;narr;2nd;retro;;precAntInf;SubDm;      |           |          [KJ <Cj>] [QN>T BJTK <Su>] [>KLTNJ <PO>];given that when the jealousy of your house had eaten me;had eaten;
 010;3pl-;WXQt;Coor;36;2;882;ind.;;;;KJ;;ind.;narr;2nd;retro;;ctAtInf2ndR;SubDm;      |           |               |  [W-<Cj>] [XRPWT XWRPJK <Su>] [NPLW <Pr>] [<LJ <Co>];and/but (given that) (when) the reproaches of your reproachers had fallen;had fallen;
-011;1sg-;WayX;Coor;37;2;1282;ind.;;;;KJ;;ind.;narr;main;zero;;AntInf>Mn;SubDm;      |           |              [W-<Cj>] [>BKH <Pr>] [B--YWM <PC>] [NPCJ <Su>];(given that) my soul wept;wept;
+011;1sg-;Way0;Coor;37;2;1292;ind.;;;;KJ;;ind.;narr;main;zero;;AntInf>Mn;SubDm;      |           |              [W-<Cj>] [>BKH <Pr>] [B--YWM NPCJ <Aj>];(given that) I wept;wept;
 011;3sgf;Way0;Coor;38;2;1312;ind.;;;;KJ;;ind.;narr;main;zero;;crdSbLnNrMn;SubDm;      |           |                   |  [W-<Cj>] [THJ <Pr>] [L-XRPWT <PC>] [LJ <Co>];and (given that) she was to reproaches;was/were;
 012;1sg-;Way0;Coor;39;2;1311;ind.;;;;KJ;;ind.;narr;main;zero;;crdSbLnNrMn;SubDm;      |           |                  [W-<Cj>] [>TNH <Pr>] [LBWCJ <Ob>] [FQ <Ob>];and (given that) I gave my clothing;gave;
 012;1sg-;Way0;Coor;40;2;1311;ind.;;;;KJ;;ind.;narr;main;zero;;crdSbLnNrMn;SubDm;      |           |                      [W-<Cj>] [>HJ <Pr>] [LHM <Co>] [L-MCL <PC>];and (given that) I was to a proverb;was/were;
 013;3plm;ZYqX;Coor;41;2;172;volit.;;;;KJ;MDMblock;non-vol.;disc;main;zero;;narr>disc;SubDm;      |           |                            | [JFJXW <Pr>] [BJ <Co>] [JCBJ C<R <Su>];(given that) yes/indeed, sitters of a gate are concerned with;are concerned with;
-013;---;NmCl;Coor;42;2;1701;nomin.;;;;KJ;;nomin.;narr;2nd;;;parSit>2nd;SubDm;      |           |                          [W-<Cj>] [NGJNWT / CWTJ CKR <sp><PC>];(given that) while I was musics;was;
+013;---;Ellp;;42;2;0;-;;;;;;-;;;;;;SubDm;      |           |                          [W-<Cj>] [NGJNWT / CWTJ CKR <sp><PC>];and musics;;
 014;---;CPen;;43;2;0;-;;;;;;-;;;;;precArgum;;      |          [W-<Cj>] [>NJ <Fr>];now, as/since concerning I;;
 014;---;NmCl;;44;2;0;nomin.;;;;;;nomin.;disc;2nd;;;;;      |              [TPLTJ <Su>] [LK <PC>];my prayer is to you;is;
 014;---;Voct;;45;2;0;-;;;;;;-;;;;;;;      |                   |   |  [JHWH <Vo>];o YHWH;;
