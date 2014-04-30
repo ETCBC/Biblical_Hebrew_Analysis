@@ -386,6 +386,8 @@ def setFU(fu):
         return "negative volitive"
     elif fu == "prohib.":
         return "prohibitive"
+    elif fu == "consec.":
+        return "consecutive"
     else:
         return "indicative"
 
