@@ -18,7 +18,7 @@
 008;3sgm;WYq0;;18;2;241;volit.;juss.;;;;;volit.;disc;main;zero;;cntMain;;  |   |       |   |  [W-<Cj>] [JRD <Pr>] [M-JM / <D JM / W-/ M-NHR / <D >PSJ >RY <sp><pa><cj><sp><Co>];and let him tread/rule;let tread/rule;
 009;3plm;xYqX;;19;2;582;non-vol.;;volit.;x;;;non-vol.;disc;main;zero;;cntMain;;  |   |       |  [L-PNJW <Co>] [JKR<W <Pr>] [YJJM <Su>];demons kneel;kneel;
 009;3plm;WXxY;;20;2;511;non-vol.;;;;;;non-vol.;disc;main;zero;;cntMain;;  |   |       |       |  [W-<Cj>] [>JBJW <Su>] [<PR <Ob>] [JLXKW <Pr>];and/but his hostile ones eat dust;eat;
-010;3plm;XxYq;;21;2;422;non-vol.;;vol.pair;vol.pair;;;volit.;disc;main;zero;;cntMain;;  |   |       |      [MLKJ TRCJC W->JJM <Su>] [MNXH <Ob>] [JCJBW <Pr>];the kings of Tarsis and.. should cause a present to return;should cause to return;
+010;3plm;XxYq;;21;2;422;non-vol.;;vol.pair;vol.pair;;;volit.;disc;main;zero;;cntMain;;  |   |       |      [MLKJ TRCJC W->JJM <Su>] [MNXH <Ob>] [JCJBW <Pr>];the kings of Tarshish and.. should cause a present to return;should cause to return;
 010;3plm;XxYq;;22;2;411;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;;cntMain;;  |   |       |           |   |  [MLKJ CB> W-SB> <Su>] [>CKR <Ob>] [JQRJBW <Pr>];the kings of Sheba and.. should cause a tribute to approach;should cause to approach;
 011;3plm;WYqX;;23;2;251;volit.;;non-vol.;x;;;volit.;disc;main;zero;;cntMain;;  |   |       |           |  [W-<Cj>] [JCTXWW <Pr>] [LW <Co>] [KL MLKJM <Su>];and let all of the kings bow down;let bow down;
 011;3plm;XYqt;;24;2;401;non-vol.;;volit.;volit.;;;volit.;disc;main;zero;;cntMain;;  |   |       |           |      [KL GWJM <Su>] [J<BDWHW <PO>];all of the peoples should work/serve him;should work/serve;
