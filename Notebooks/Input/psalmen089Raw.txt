@@ -79,7 +79,7 @@
 032;3plm;WxY0;Coor;79;23;691;non-vol.;;;;>M;;non-vol.;disc;main;zero;;cntProtMain;prot.;  |                |          |           |      [W-<Cj>] [MYWTJ <Ob>] [L> <Ng>] [JCMRW <Pr>];and (if) they do not keep my commandments;do keep;
 033;1sg-;WQt0;;80;23;1452;non-vol.;;non-vol.;x;;;non-vol.;disc;2nd;forwd;;opnApod2ndF;apod.;  |                |          |          [W-<Cj>] [PQDTJ <Pr>] [B-CBV <Aj>] [PC<M <Ob>];then I will look after their rebellion;will look after;
 033;---;Ellp;;81;23;0;-;;;;;;-;;;;;;apod.;  |                |          |               |  [W-<Cj>] [B-NG<JM <Aj>] [<WNM <Ob>];and their sin;;
-034;1sg-;WxY0;Coor;82;23;721;non-vol.;;;;;;non-vol.;disc;main;zero;;cntApod>Mn;apod.;  |                |          |              [W-<Cj>] [XSDJ <Ob>] [L> <Ng>] [>PJR <Pr>] [M-<MW <Ob>];and I do not destroy my loyalty;do destroy;
+034;1sg-;WxY0;Coor;82;23;721;non-vol.;;;;;;non-vol.;disc;main;zero;;cntApod>Mn;apod.;  |                |          |              [W-<Cj>] [XSDJ <Ob>] [L> <Ng>] [>PJR <Pr>] [M-<MW <Co>];and I do not destroy my loyalty;do destroy;
 034;1sg-;WxY0;Coor;83;23;691;non-vol.;;;;;;non-vol.;disc;main;zero;;cntApodMain;apod.;  |                |          |                   |   |  [W-<Cj>] [L> <Ng>] [>CQR <Pr>] [B->MWNTJ <Co>];and I do not do falsely;do do falsely;
 035;1sg-;xYq0;Coor;84;23;601;non-vol.;;;;;;non-vol.;disc;main;zero;;cntApodMain;apod.;  |                |          |                   |  [L> <Ng>] [>XLL <Pr>] [BRJTJ <Ob>];I do not defile my covenant;do defile;
 035;1sg-;WxY0;Coor;85;23;691;non-vol.;;;;;;non-vol.;disc;main;zero;;cntApodMain;apod.;  |                |          |                  [W-<Cj>] [MWY> FPTJ <Ob>] [L> <Ng>] [>CNH <Pr>];and I do not change the issue of my lips;do change;

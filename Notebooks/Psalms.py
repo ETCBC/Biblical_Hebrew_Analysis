@@ -433,6 +433,8 @@ def setProcesses(morph, defFu, inhtbFu, inhFu, bloFu, finFu, MDM, conversion):
                 result = "The clause forms a volitive pair together with its volitive <em>weyiqtol</em> daughter clause. The " + setFU(defFu) + " default function is overridden by a volitive one."
             elif inhFu == defFu:
                 result = "The non-volitive default function of this weQatal-clause is preserved as the clause inherits non-volitive functionality."
+            elif inhFu == "final" and defFu != "non-vol.":
+                result = "Inheritance of " + setFU(inhtbFu) + " functionality is possible and does indeed take place."			
             else:
                 result = "Inheritance of " + setFU(inhtbFu) + " functionality is possible and does indeed take place. The " + setFU(defFu) + " default function is overridden."
         elif inhFu == "neg.fin." or inhFu == "neg.vol.":
