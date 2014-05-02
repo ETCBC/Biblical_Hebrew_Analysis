@@ -44,7 +44,7 @@
 019;3sgf;XQtl;Coor;44;1;0;ind.;;;;;;ind.;disc;2nd;retro;;crdDpLn>2ndR;DepDm;  |                       |       |                  [>MRT JHWH <Su>] [YRPTHW <PO>];the word of YHWH has melted him;has melted;
 020;3sgm;ZQtX;;45;1;1152;ind.;;;;;;ind.;narr;2nd;retro;;precAntInf;;  |                       |      [CLX <Pr>] [MLK <Su>];when a king had sent;had sent;
 020;3sgm;Way0;;46;1;1291;ind.;;;;;;ind.;narr;main;zero;;AntInf>Mn;;  |                       |           |   |   |  [W-<Cj>] [JTJRHW <PO>];he caused him to run;caused to run;
-020;---;Ellp;;47;1;0;-;;;;;;-;;;;;;;  |                       |           |   |  [MCL <MJM <Ob>]; a ruler of peoples;;
+020;---;Ellp;;47;1;0;-;;;;;;-;;;;;;;  |                       |           |   |  [MCL <MJM <Su>];a ruler of peoples;;
 020;3sgm;Way0;;48;1;1291;ind.;;;;;;ind.;narr;main;zero;;opnNrMn;;  |                       |           |  [W-<Cj>] [JPTXHW <PO>];he opened him;opened;
 021;3sgm;ZQt0;;49;1;1151;ind.;;;;;;ind.;narr;2nd;retro;;cntNr2nd;;  |                       |          [FMW <PO>] [>DWN <Ob>] [L-BJTW <Co>];he had put him;had put;
 021;---;Ellp;;50;1;0;-;;;;;;-;;;;;;;  |                       |               |   |  [W-<Cj>] [MCL <Ob>] [B-KL QNJNW <Co>];and a ruler;;
