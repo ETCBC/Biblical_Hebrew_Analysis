@@ -191,7 +191,7 @@
 083;1sg-;xQt0;;191;11;973;ind.;;;;;;ind.;disc;2nd;retro;;opnSbLn2ndR;SubDm;  |   |   |      [KJ <Cj>] [HJJTJ <Pr>] [K-N>D / B-QJVWR <sp><PC>];given that I have been as a skin-bottle;have been;
 083;1sg-;xQt0;Coor;192;11;971;ind.;;;;KJ;;ind.;disc;2nd;retro;;crdSbLn2ndR;SubDm;  |   |   |          [XQJK <Ob>] [L> <Ng>] [CKXTJ <Pr>];(given that) I have not forgotten your portions;have forgotten;
 084;---;NmCl;;193;11;1692;nomin.;;;;;;nomin.;disc;MAIN;;K MH;Argum>Mn;;  |   |  [K-MH <PC>] [JMJ <BDK <Su>];how long the days of your servant are?;are;
-084;2sgm;xYq0;;194;11;652;non-vol.;;;;;;non-vol.;disc;MAIN;zero;MTJ;cntMain;;  |   |      [MTJ <Qu>] [T<FH <Pr>] [B-RDPJ <Cj>] [MCPV <Ob>];when do you make/do justice?;do make/do;
+084;2sgm;xYq0;;194;11;652;non-vol.;;;;;;non-vol.;disc;MAIN;zero;MTJ;cntMain;;  |   |      [MTJ <Qu>] [T<FH <Pr>] [B-RDPJ <Co>] [MCPV <Ob>];when do you make/do justice?;do make/do;
 085;3pl-;ZQtX;;195;11;1152;ind.;;;;;;ind.;disc;2nd;retro;;precArgum;;  |  [KRW <Pr>] [LJ <Co>] [ZDJM <Su>] [CJXWT <Ob>];as/since insolent ones have dug pits;have dug;
 085;---;NmCl;Attr;196;11;1693;nomin.;;;;;;nomin.;disc;main;;;opnAttrMain;AttrDm;  |       |   |   |   |  [>CR <Re>] [L> <Ng>] [K-TWRTK <PC>];who/which is not as your instruction;is;
 086;---;NmCl;;197;11;1692;nomin.;;;;;;nomin.;disc;2nd;;;cntArgm2nd;;  |       |   |   |  [KL MYWTJK <Su>] [>MWNH <PC>];(as/since) all of your commandments is a steadiness;is;
