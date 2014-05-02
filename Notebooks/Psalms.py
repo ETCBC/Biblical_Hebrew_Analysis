@@ -54,7 +54,7 @@ div.navigation form, div.navigation form input {
 }
 
 form input {
-    max-width: 20px;
+    max-width: 30px;
 }
 
 div.button form input {
