@@ -420,7 +420,7 @@ def setProcesses(morph, defFu, inhtbFu, inhFu, bloFu, finFu, MDM, conversion):
         elif bloFu == "precDrSp":
             result = "This 0-yiqtol clause introduces the preceding direct speech section, which should be seen as the 0-yiqtol verb's object. Therefore the clause does not fulfill its " + setFU(defFu) + " default function."
         elif bloFu == "narr":
-            result = "This 0-yiqtol clause is embedded in a narrative domain of communication and therefore does not fulfill its " + setFU(defFu) + "  default function."
+            result = "This verb-initial yiqtol clause is embedded in a narrative domain of communication and therefore does not fulfill its " + setFU(defFu) + "  default function."
         elif bloFu == "prosp":
             result = "This 0-yiqtol clause is embedded in a prospective domain of communication and therefore does not fulfill its " + setFU(defFu) + "  default function."
         elif bloFu == "inhExpSu":
@@ -465,7 +465,13 @@ def setDefDisc(toc, loc, psp, anch, conversion):
     if (anch != ""):
         result += ";<br>The clause contains or inherits the mainline anchor " + set_word_to_unicode(anch, conversion) + "."
     return result
-        
+
+def setPatternNumber(nr):
+    if (nr == '0'):
+        return '<td>&nbsp;</td>'
+    else:
+        return '<td><a href="ConcordanceOfPatterns.ipynb#' + nr + '" target="_blank">' + nr + '</a></td>'
+
 def make_analysis(data, unicode_lines, conversion, n):
     total = '<table class="presentation" id="Analysis">'
     head = '<tr><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Processes" + '</a><br><div class="small">' + '(hover over<br>"!"-sign)' + '</div></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th><a href="MDModifier.ipynb" target="_blank">' + "MDMod" + '</a></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</a></th><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th></tr>'
@@ -475,8 +481,9 @@ def make_analysis(data, unicode_lines, conversion, n):
     for d in data:
         unicode_line_with_spaces = get_hebrew_in_unicode(unicode_lines[i])
         processes = setProcesses(d[8], d[7], d[9], d[10], d[12], d[13], d[11], conversion)
-        df = setDefDisc(d[14], d[15], d[16], d[17], conversion)    
-        line = '<tr id="ln' + str(i+1) + '"><td>' + d[0] + '</td><td>' + d[4] + '</td><td class="unicode" nowrap><div class="front_hebrew">' + unicode_line_with_spaces + '<div class="translation">' + getTranslation(d[21], d[22]) + '</div></div></td><td><div class="front">' + d[2] + '<div class="def_disc">' + df + '</div></div></td><td><div class="left">' + d[7] + '</div></td>' + processes + '<td><div class="right">' + d[13] + '</div></td><td class="unicode">' + set_word_to_unicode(d[11], conversion) + '</td><td>' + d[3] + '</td><td>' + d[18] + '</td><td><a href="ConcordanceOfPatterns.ipynb#' + d[6] + '" target="_blank">' + d[6] + '</a></td></tr>'
+        df = setDefDisc(d[14], d[15], d[16], d[17], conversion)
+        patternNumber = setPatternNumber(d[6])		
+        line = '<tr id="ln' + str(i+1) + '"><td>' + d[0] + '</td><td>' + d[4] + '</td><td class="unicode" nowrap><div class="front_hebrew">' + unicode_line_with_spaces + '<div class="translation">' + getTranslation(d[21], d[22]) + '</div></div></td><td><div class="front">' + d[2] + '<div class="def_disc">' + df + '</div></div></td><td><div class="left">' + d[7] + '</div></td>' + processes + '<td><div class="right">' + d[13] + '</div></td><td class="unicode">' + set_word_to_unicode(d[11], conversion) + '</td><td>' + d[3] + '</td><td>' + d[18] + '</td>' + patternNumber + '</tr>'
         total += line
         i += 1
         if (i == n):
