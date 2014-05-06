@@ -24,7 +24,7 @@
 007;1sg-;xYq0;;24;2;0;non-vol.;;;;;;non-vol.;disc;MAIN;zero;>N;(re)openMain;;      |  [>NH <Qu>] [>LK <Pr>] [M-RWXK <Co>];whither do I walk?;do walk;
 007;1sg-;WxY0;;25;2;691;non-vol.;;;;;;non-vol.;disc;MAIN;zero;>N;cntMain;;      |       |   |   |   |  [W-<Cj>] [>NH <Qu>] [M-PNJK <Co>] [>BRX <Pr>];and whither do I run away?;do run away;
 008;1sg-;xYq0;;26;2;603;non-vol.;;;;;;non-vol.;disc;main;zero;;opnProtMain;prot.;      |       |   |   |  [>M <Cj>] [>SQ <Pr>] [CMJM <Co>];if I ascend;ascend;
-008;---;NmCl;;27;2;1682;nomin.;;;;;;nomin.;disc;main;;;opnApodMain;apod.;      |       |   |   |       |   |  [CM <Mo>] [>TH <Su>];then you are;are;
+008;---;NmCl;;27;2;1682;nomin.;;;;;;nomin.;disc;main;;;opnApodMain;apod.;      |       |   |   |       |   |  [CM <PC>] [>TH <Su>];then you are there;are;
 008;1sg-;WYq0;Coor;28;2;281;coh.;coh.;;;>M;;coh.;disc;main;zero;;cntProtMain;prot.;      |       |   |   |       |  [W-<Cj>] [>YJ<H <Pr>] [C>WL <Lo>];and (if) I want to spread out;let spread out;
 008;---;NmCl;;29;2;1662;nomin.;;;;;;nomin.;disc;MAIN;;HNH;opnApodMain;apod.;      |       |   |   |       |      [HNK <PC>];then you are there;are;
 009;1sg-;ZYq0;Coor;30;2;151;coh.;;;;>M;MDMblock;non-vol.;disc;main;zero;;cntProtMain;prot.;      |       |   |   |      [>F> <Pr>] [KNPJ CXR <Ob>];(if) I lift wings of the dawn;lift;
