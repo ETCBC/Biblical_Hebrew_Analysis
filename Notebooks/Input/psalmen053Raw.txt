@@ -23,7 +23,7 @@
 006;2sgm;ZQt0;;23;2;1152;ind.;;;;;;ind.;disc;2nd;retro;;cnt2ndR;;      |              [HBCTH <Pr>];you have caused to be ashamed;have caused to be ashamed;
 006;3sgm;xXQt;;24;2;793;ind.;;;;;;ind.;disc;2nd;retro;;opnSbLn2ndR;SubDm;      |                  [KJ <Cj>] [>LHJM <Su>] [M>SM <PO>];given that God has retracted them;has retracted;
 007;3sgm;XYqt;;25;2;0;non-vol.;;;;;;non-vol.;disc;MAIN;zero;MJ;(re)openMain;;     [MJ <Su>] [JTN <Pr>];may it be [id.];may it be [id.];
-007;---;NmCl;ObCl;26;2;0;nomin.;;;;;;nomin.;disc;main;;;opnDpLnMain;DepDm;          |  [M-YJWN <PC>] [JC<WT JFR>L <Su>];that the salvations of Israel are from YJWN==/;are;
+007;---;NmCl;ObCl;26;2;0;nomin.;;;;;;nomin.;disc;main;;;opnDpLnMain;DepDm;          |  [M-YJWN <PC>] [JC<WT JFR>L <Su>];that the salvations of Israel are from Zion;are;
 007;---;InfC;AjCl;27;2;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;          |  [B-CWB <Pr>] [>LHJM <Su>] [CBWT <MW <Ob>];while/when God is gathering the captivity of his people;is gathering;
 007;3sgm;xYqX;;28;2;592;non-vol.;juss.;;;;;volit.;disc;main;zero;;cntMain;;         [JGL <Pr>] [J<QB <Su>];let Jacob rejoice;let rejoice;
 007;3sgm;ZYqX;;29;2;141;volit.;;;;;;volit.;disc;main;zero;;cntMain;;         [JFMX <Pr>] [JFR>L <Su>];let Israel rejoice;let rejoice;

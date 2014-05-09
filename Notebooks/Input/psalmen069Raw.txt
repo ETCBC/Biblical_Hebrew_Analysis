@@ -29,7 +29,7 @@
 007;-plm;Ptcp;SuCl;29;2;0;ind.;;;;;;ind.;disc;main;;;opnDpLnMain;DepDm;      |           |       |   |  [MBQCJK <po>];they who are seeking you;are seeking;
 007;---;Voct;;30;2;0;-;;;;;;-;;;;;;;      |           |       |  [>LHJ JFR>L <Vo>];o God of Israel;;
 008;1sg-;xQt0;;31;2;963;ind.;;;;;;ind.;disc;2nd;retro;;opnSbLn2ndR;SubDm;      |           |      [KJ <Cj>] [<LJK <Aj>] [NF>TJ <Pr>] [XRPH <Ob>];given that I have lifted a reproach;have lifted;
-008;3sgf;ZQtX;Coor;32;2;1152;ind.;;;;KJ;;ind.;disc;2nd;retro;;crdSbLn2ndR;SubDm;      |           |           |   |  [KSTH <Pr>] [KLMH <Su>] [PNJ <Ob>];(given that) an insult has covered my face;has covered;
+008;3sgf;ZQtX;Coor;32;2;1152;ind.;;;;KJ;;ind.;disc;2nd;retro;;crdSbLn2ndR;SubDm;      |           |           |   |  [KSTH <Pr>] [KLMH <Su>] [PNJ <Ob>];(given that) an insult has covered (with) my face;has covered (with);
 009;1sg-;xQt0;Coor;33;2;971;ind.;;;;KJ;;ind.;disc;2nd;retro;;crdSbLn2ndR;SubDm;      |           |           |  [MWZR <PC>] [HJJTJ <Pr>] [L->XJ <Co>];(given that) I have been being turned aside one;have been;
 009;---;Ellp;;34;2;0;-;;;;;;-;;;;;;SubDm;      |           |           |      [W-<Cj>] [NKRJ <PC>] [L-BNJ >MJ <Co>];and foreign;;
 010;3sgf;xXQt;;35;2;793;ind.;;;;;;ind.;narr;2nd;retro;;precAntInf;SubDm;      |           |          [KJ <Cj>] [QN>T BJTK <Su>] [>KLTNJ <PO>];given that when the jealousy of your house had eaten me;had eaten;
@@ -66,7 +66,7 @@
 020;2sgm;XQtl;;66;2;751;ind.;;;;;;ind.;disc;2nd;retro;;follGivInf;;      |                                           |   |  [>TH <Su>] [JD<T <Pr>] [XRPTJ W-BCTJ W-KLMTJ <Ob>];now that/when you have known my reproach and..;have known;
 020;---;NmCl;;67;2;1692;nomin.;;;;;;nomin.;disc;2nd;;;ctGvInf2nd;;      |                                           |   |       |  [NGDK <PC>] [KL YWRRJ <Su>];(now that/when) all of my hostile ones is your counterpart;is;
 021;3sgf;XQtl;;68;2;792;ind.;;;;;;ind.;narr;2nd;retro;;precAntInf;;      |                                           |   |      [XRPH <Su>] [CBRH <Pr>] [LBJ <Ob>];when a reproach had broken my heart;had broken;
-021;1sg-;Way0;;69;2;1292;ind.;;;;;;ind.;narr;main;zero;;AntInf>Mn;;      |                                           |   |          [W-<Cj>] [>NWCH <Pr>];I <uncertain>;<uncertain>;
+021;1sg-;Way0;;69;2;1292;ind.;;;;;;ind.;narr;main;zero;;AntInf>Mn;;      |                                           |   |          [W-<Cj>] [>NWCH <Pr>];I was sick;was sick/were sick;
 021;1sg-;Way0;;70;2;1311;ind.;;;;;;ind.;narr;main;zero;;cntNrMn;;      |                                           |   |          [W-<Cj>] [>QWH <Pr>];and I waited (for);waited (for);
 021;---;InfC;CoCl;71;2;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;      |                                           |   |               |   |   |   |  [L-NWD <Pr>];in order to waver;waver;
 021;---;NmCl;;72;2;1702;ng.exst.;;;;;;ng.exst.;narr;2nd;;;parSit>2nd;;      |                                           |   |               |   |   |  [W-<Cj>] [>JN <NC>];while there was/were none;was/were;

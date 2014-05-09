@@ -1,7 +1,7 @@
 001;---;NmCl;;1;1;0;nomin.;;;;;;nomin.;disc;main;;;(re)openMain;; [L-DWD <PC>];this is to David;is;
 001;---;NmCl;;2;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |  [MFKJL <PC>];this is a maskil;is;
 001;---;NmCl;;3;2;0;nomin.;;;;;;nomin.;disc;main;;;opnDrSpMain;; [>CRJ <PC>] [NFWJ PC< <Su>];a being lifted one of a rebellion is happy;is;
-001;---;Ellp;;4;2;0;-;;;;;;-;;;;;;;  |  [KSWJ XV>H <Su>];a being covered one of a sin;;
+001;---;Ellp;;4;2;0;-;;;;;;-;;;;;;;  |  [KSWJ XV>H <Su>];a being covered (with) one of a sin;;
 002;---;NmCl;;5;2;1732;nomin.;;;;;;nomin.;disc;main;;;cntMain;; [>CRJ <PC>] [>DM <Su>];a human is happy;is;
 002;3sgm;xYqX;Attr;6;2;653;non-vol.;;;;;;non-vol.;disc;main;zero;;opnAttrMain;AttrDm;      |   |   |   |  [L> <Ng>] [JXCB <Pr>] [JHWH <Su>] [LW <Co>] [<WN <Ob>];(in/for/with/of) whom/which YHWH does not account a sin;does account;
 002;---;NmCl;Coor;7;2;1682;nomin.;;;;;;nomin.;disc;main;;;crdAttrMain;AttrDm;      |   |   |   |      [W-<Cj>] [>JN <eX>] [B-RWXW <PC>] [RMJH <Su>];and (in/for/with/of) whom/which a deceit is in/among his wind;is;
@@ -11,7 +11,7 @@
 004;3sgm;ZQtX;Coor;11;2;1142;ind.;;;;KJ;;ind.;disc;2nd;retro;;crdSbLn>2ndR;SubDm;      |   |   |              [NHPK <Pr>] [LCDJ <Su>] [B-XRBNJ QJY <Co>];(given that) my dainty has been turned;has been turned;
 004;---;MSyn;;12;2;0;-;;;;;;-;;MAIN;;SLH;;;      |   |   |                  [SLH <Ij>];sela;;
 005;1sg-;xYq0;;13;2;0;non-vol.;;;;;;non-vol.;disc;main;zero;;(re)openMain;;      |   |  [XV>TJ <Ob>] [>WDJ<K <PO>];I cause you to know;cause to know;
-005;1sg-;WxQ0;;14;2;1051;ind.;;;;;;ind.;disc;2nd;retro;;parSit>2ndR;;      |   |       |   |   |  [W-<Cj>] [<WNJ <Ob>] [L> <Ng>] [KSJTJ <Pr>];while I have not covered my sin;have covered;
+005;1sg-;WxQ0;;14;2;1051;ind.;;;;;;ind.;disc;2nd;retro;;parSit>2ndR;;      |   |       |   |   |  [W-<Cj>] [<WNJ <Ob>] [L> <Ng>] [KSJTJ <Pr>];while I have not covered (with) my sin;have covered (with);
 005;1sg-;ZQt0;;15;2;1141;ind.;;;;;;ind.;disc;2nd;retro;;opn2ndR;;      |   |       |   |  [>MRTJ <Pr>];I have said;have said;
 005;1sg-;ZYq0;;16;21;0;coh.;;;;;;coh.;disc;main;zero;;opnDrSpMain;;      |   |       |   |       |  [>WDH <Pr>] [<LJ PC<J <Co>] [L-JHWH <Co>];let me praise;let praise;
 005;2sgm;WXQt;;17;2;882;ind.;;;;;;ind.;disc;2nd;retro;;cnt2ndR;;      |   |       |   |      [W-<Cj>] [>TH <Su>] [NF>T <Pr>] [<WN XV>TJ <Ob>];and/but you have lifted the sin of my sin;have lifted;

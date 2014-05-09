@@ -1,6 +1,6 @@
 001;---;NmCl;;1;1;0;nomin.;;;;;;nomin.;disc;main;;;(re)openMain;; [L--MNYX <PC>];this is to the prevailer;is;
 001;---;NmCl;;2;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |  [MFKJL / L-DWD <sp><PC>];this is a maskil;is;
-002;---;InfC;AjCl;3;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B-BW> <Pr>] [DW>G / H->DMJ <ap><Su>];while/when DW>G/ was coming (to);was coming (to);
+002;---;InfC;AjCl;3;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B-BW> <Pr>] [DW>G / H->DMJ <ap><Su>];while/when Doeg was coming (to);was coming (to);
 002;3sgm;Way0;Coor;4;1;0;ind.;;;;;;ind.;narr;main;zero;;crdDpLn>NrMn;DepDm;  |          [W-<Cj>] [JGD <Pr>] [L-C>WL <Co>];and he reported;reported;
 002;3sgm;Way0;Coor;5;1;1311;ind.;;;;;;ind.;narr;main;zero;;crdDpLnNrMn;DepDm;  |          [W-<Cj>] [J>MR <Pr>] [LW <Co>];and he said;said;
 002;3sgm;ZQtX;;6;11;0;ind.;;;;;;ind.;disc;2nd;retro;;opnDrSp2ndR;;  |              [B> <Pr>] [DWD <Su>] [>L BJT >XJMLK <Co>];David has come (to);has come (to);

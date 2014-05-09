@@ -2,7 +2,7 @@
 001;---;NmCl;;2;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |   |   |  [<L JWNT >LM RXQJM <PC>];this is upon a dove of an oak;is;
 001;---;NmCl;;3;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |   |  [L-DWD <PC>];this is to David;is;
 001;---;NmCl;;4;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |  [MKTM <PC>];this is a golden song;is;
-001;---;InfC;AjCl;5;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B->XZ <Pr>] [>TW <Ob>] [PLCTJM <Su>] [B-GT <Lo>];while/when PLCTJ/ ones are seizing him;are seizing;
+001;---;InfC;AjCl;5;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B->XZ <Pr>] [>TW <Ob>] [PLCTJM <Su>] [B-GT <Lo>];while/when Philistines are seizing him;are seizing;
 002;2sgm;ZIm0;;6;2;0;imperat.;;;;;;imperat.;disc;main;zero;;opnDrSpMain;; [XNNJ <PO>];favour me!;favour;
 002;---;Voct;;7;2;0;-;;;;;;-;;;;;;;      |   |   |   |  [>LHJM <Vo>];o God;;
 002;3sgm;xQtX;;8;2;933;ind.;;;;;;ind.;disc;2nd;retro;;precGivInf;SubDm;      |   |   |  [KJ <Cj>] [C>PNJ <PO>] [>NWC <Su>];given that now that/when a man has gasped me;has gasped;

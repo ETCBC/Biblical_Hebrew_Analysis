@@ -1,7 +1,7 @@
 001;---;NmCl;;1;1;0;nomin.;;;;;;nomin.;disc;main;;;(re)openMain;; [L--MNYX <PC>];this is to the prevailer;is;
 001;---;NmCl;;2;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |   |  [B-NGJNT <PC>];this is in/among musics;is;
 001;---;NmCl;;3;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |  [MFKJL / L-DWD <sp><PC>];this is a maskil;is;
-002;---;InfC;AjCl;4;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B-BW> <Pr>] [H-ZJPJM <Su>];while/when the ZJPJ/ ones were coming (to);were coming (to);
+002;---;InfC;AjCl;4;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B-BW> <Pr>] [H-ZJPJM <Su>];while/when Ziphites were coming (to);were coming (to);
 002;3plm;Way0;Coor;5;1;0;ind.;;;;;;ind.;narr;main;zero;;crdDpLn>NrMn;DepDm;  |          [W-<Cj>] [J>MRW <Pr>] [L-C>WL <Co>];and they said;said;
 002;-sgm;Ptcp;;6;11;0;ind.;;;;;;ind.;disc;MAIN;;H= L>;opnDrSpMain;;  |              [H-<Qu>] [L> <Ng>] [DWD <Su>] [MSTTR <PC>] [<MNW <Aj>];is it not so that David is hiding?;is hiding;
 003;---;Voct;;7;2;0;-;;;;;;-;;;;;opnDrSpMain;; [>LHJM <Vo>];o God;;

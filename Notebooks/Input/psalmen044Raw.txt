@@ -41,7 +41,7 @@
 015;2sgm;ZYq0;;41;2;111;juss.;;non-vol.;x;;narr;non-vol.;disc;main;zero;;cntDiscInNar;;      |           |   |   |      [TFJMNW <PO>] [MCL <Ob>] [B--GWJM <Aj>];yes/indeed, you put us;put;
 015;---;Ellp;;42;2;0;-;;;;;;-;;;;;;;      |           |   |   |          [MNWD R>C <Ob>] [BL >MJM <Aj>]; a head-shaking of a head;;
 016;---;NmCl;;43;2;0;nomin.;;;;;;nomin.;disc;main;;;(re)openMain;;      |           |   |  [KL H-JWM <Ti>] [KLMTJ <Su>] [NGDJ <PC>];my insult is my counterpart;is;
-016;3sgf;WXQt;;44;21;921;ind.;;;;;;ind.;disc;2nd;retro;;parSit>2ndR;;      |           |   |       |   |  [W-<Cj>] [BCT PNJ <Su>] [KSTNJ <PO>];while the shame of my face has covered me;has covered;
+016;3sgf;WXQt;;44;21;921;ind.;;;;;;ind.;disc;2nd;retro;;parSit>2ndR;;      |           |   |       |   |  [W-<Cj>] [BCT PNJ <Su>] [KSTNJ <PO>];while the shame of my face has covered (with) me;has covered (with);
 017;---;Defc;;45;2;0;-;;;;;;-;;;;;;;      |           |   |       |  [M-QWL MXRP / W-/ MGDP <pa><cj><Aj>];;;
 017;---;Ellp;;46;2;0;-;;;;;;-;;;;;;;      |           |   |      [M-PNJ >WJB / W-/ MTNQM <pa><cj><Aj>];;;
 018;3sgf;XQtl;;47;2;0;ind.;;;;;;ind.;disc;2nd;retro;;opn2ndR;;      |           |  [KL Z>T <Su>] [B>TNW <PO>];all has come (to) us;has come (to);

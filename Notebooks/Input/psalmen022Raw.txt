@@ -39,7 +39,7 @@
 012;-sgf;AjCl;;39;2;1683;nomin.;;;;;;nomin.;disc;main;;;opnSbLnMain;SubDm;              |   |  [KJ <Cj>] [YRH <Su>] [QRWBH <PC>];given that a distress is near;is;
 012;---;NmCl;;40;2;1733;ng.exst.;;;;;;ng.exst.;disc;main;;;opnSbLnMain;SubDm;              |   |      [KJ <Cj>] [>JN <NC>] [<WZR <PC>];given that there is no helper;is;
 013;3pl-;ZQtX;;41;2;1142;ind.;;;;;;ind.;disc;2nd;retro;;follArgum;;              |  [SBBWNJ <PO>] [PRJM / RBJM <sp><Su>];as/since young bulls have gone around me;have gone around;
-013;3pl-;XQtl;;42;2;791;ind.;;;;;;ind.;disc;2nd;retro;;cntArgm2ndR;;              |       |   |   |  [>BJRJ BCN <Su>] [KTRWNJ <PO>];(as/since) the strong ones of BCN/ have surrounded me;have surrounded;
+013;3pl-;XQtl;;42;2;791;ind.;;;;;;ind.;disc;2nd;retro;;cntArgm2ndR;;              |       |   |   |  [>BJRJ BCN <Su>] [KTRWNJ <PO>];(as/since) the strong ones of Basan have surrounded me;have surrounded;
 014;3pl-;ZQt0;;43;2;1151;ind.;;;;;;ind.;disc;2nd;retro;;cntArgm2ndR;;              |       |   |  [PYW <Pr>] [<LJ <Co>] [PJHM <Ob>] [>RJH <Aj>];(as/since) they have opened their mouth;have opened;
 014;-sgm;Ptcp;Attr;44;2;1603;ind.;;;;;;ind.;disc;main;;;opnAttrMain;AttrDm;              |       |   |      [VRP <PC>];who/which is tearing;is tearing;
 014;-sgm;Ptcp;Coor;45;2;1631;ind.;;;;;;ind.;disc;main;;;crdAttrMain;AttrDm;              |       |   |          [W-<Cj>] [C>G <PC>];and who/which is roaring;is roaring;

@@ -37,7 +37,7 @@
 010;1sg-;xYq0;;37;21;611;non-vol.;;;;;;non-vol.;disc;MAIN;zero;HNH;GivInf>Mn;;          |       |  [HNH <Ij>] [FPTJ <Ob>] [L> <Ng>] [>KL> <Pr>];behold, I do not restrain my lips;do restrain;
 010;---;Voct;;38;21;782;-;;;;;;-;;;;;follArgum;;          |       |      [JHWH <Vo>];as/since, o YHWH,;;
 010;2sgm;XQtl;;39;21;0;ind.;;;;;;ind.;disc;2nd;retro;;;;          |       |          [>TH <Su>] [JD<T <Pr>];you have known;have known;
-011;1sg-;xQt0;;40;21;971;ind.;;;;;;ind.;disc;2nd;retro;;cnt2ndR;;          |      [YDQTK <Ob>] [L> <Ng>] [KSJTJ <Pr>] [B-TWK LBJ <Co>];I have not covered your justice;have covered;
+011;1sg-;xQt0;;40;21;971;ind.;;;;;;ind.;disc;2nd;retro;;cnt2ndR;;          |      [YDQTK <Ob>] [L> <Ng>] [KSJTJ <Pr>] [B-TWK LBJ <Co>];I have not covered (with) your justice;have covered (with);
 011;1sg-;xQt0;;41;21;971;ind.;;;;;;ind.;disc;2nd;retro;;cnt2ndR;;          |           |  [>MWNTK W-TCW<TK <Ob>] [>MRTJ <Pr>];I have said your steadiness and..;have said;
 011;1sg-;xQt0;;42;21;971;ind.;;;;;;ind.;disc;2nd;retro;;cnt2ndR;;          |          [L> <Ng>] [KXDTJ <Pr>] [XSDK W->MTK <Ob>] [L-QHL / RB <sp><Co>];I have not hidden your loyalty and..;have hidden;
 012;---;Defc;;43;21;0;-;;;;;;-;;;;;(re)openMain;;         [>TH <Su>];you;;

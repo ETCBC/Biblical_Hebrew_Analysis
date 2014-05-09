@@ -6,7 +6,7 @@
 002;---;Defc;;6;11;0;-;;;;;;-;;;;;;;      |   |   |  [>RYK <Ob>]; your earth;;
 002;2sgm;ZQt0;;7;11;1151;ind.;;;;;;ind.;disc;2nd;retro;;ctGvInf2ndR;;      |   |  [CBT <Pr>] [CBWT J<QB <Ob>];(now that/when) you have gathered the captivity of Jacob;have gathered;
 003;2sgm;ZQt0;;8;11;1151;ind.;;;;;;ind.;disc;2nd;retro;;ctGvInf2ndR;;      |   |  [NF>T <Pr>] [<WN <MK <Ob>];(now that/when) you have lifted the sin of your people;have lifted;
-003;2sgm;ZQt0;;9;11;1151;ind.;;;;;;ind.;disc;2nd;retro;;ctGvInf2ndR;;      |   |  [KSJT <Pr>] [KL XV>TM <Ob>];(now that/when) you have covered all of their sin;have covered;
+003;2sgm;ZQt0;;9;11;1151;ind.;;;;;;ind.;disc;2nd;retro;;ctGvInf2ndR;;      |   |  [KSJT <Pr>] [KL XV>TM <Ob>];(now that/when) you have covered (with) all of their sin;have covered (with);
 003;---;MSyn;;10;11;0;-;;;;;;-;;MAIN;;SLH;;;      |   |   |  [SLH <Ij>];sela;;
 004;2sgm;ZQt0;;11;11;1151;ind.;;;;;;ind.;disc;2nd;retro;;ctGvInf2ndR;;      |   |  [>SPT <Pr>] [KL <BRTK <Ob>];(now that/when) you have gathered all of your anger;have gathered;
 004;2sgm;ZQt0;;12;11;1151;ind.;;;;;;ind.;disc;2nd;retro;;ctGvInf2ndR;;      |   |  [HCJBWT <Pr>] [M-XRWN >PK <Co>];(now that/when) you have caused to return;have caused to return;

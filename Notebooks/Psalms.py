@@ -8,8 +8,19 @@ from IPython.display import display, HTML
 display(HTML(data="""
 <style>
 
+/*
+div#notebook {
+	background-color:indigo;
+}
+
+h1, h2, h3, h4 {
+	color:White;
+}
+*/
+
 table.presentation {
     border-style:hidden;
+	/* color:White; */
 }
 
 table.presentation tr {
@@ -47,6 +58,7 @@ div.navigation {
     width:50%;
     font-size:small;
     font-style:italic;
+	/* color:White; */
 }
 
 div.navigation form, div.navigation form input {
@@ -91,10 +103,12 @@ div.front div, div.front_hebrew div {
 div.front:hover div, div.front_a:hover div, div.front_b:hover div {
     display: block;
     max-width: 200px;
+	/* background-color:midnightblue; */
 }
     
 div.front_hebrew:hover div {
     display: block;
+	/* background-color:midnightblue; */
 }
 
 div.def_disc, div.factors {
@@ -131,16 +145,22 @@ div.delimit {
 
 span.translation_verb{
     color: Crimson;
-    font-weight: bold;
+	/* background-color:midnightblue; */
 }
 
 span.verb {
     color: Crimson;
+	/* background-color:midnightblue; */
 }
 
 div.small {
     font-size: xx-small;	
 	line-height: 95%;
+}
+
+div.counter {
+	font-size: small;
+	font-style: italic;
 }
 
 </style>
@@ -544,7 +564,10 @@ def make_patterns(patterns, conversion, n, conc):
         head = '<tr><th><a href="ConcordanceOfPatterns.ipynb" target="_blank">' + "#Pat" + '</a></th><th>' + "Vs" + '</th><th>' + "Ln" + '</th><th nowrap><a href="ClauseLabels.ipynb" target="_blank">' + "ClTp" + '</a><br><div class="small">' + "(mouse-over<br>for<br>" + '<a href="DefaultDiscourseFunctions.ipynb" target="_blank">' + "DefDiscFu)" + '</a></div></th><th nowrap><a href="HebrewText.ipynb" target="_blank">' + "Hebrew text" + '</a><br><div class="small">' + "(mouse-over for " + '<a href="Translation.ipynb" target="_blank">' + "Translation)" + '</a></div></th><th><a href="CCR.ipynb" target="_blank">' + "CCR" + '</a></th><th><a href="DefaultFunctions.ipynb" target="_blank">' + "DefFu" + '</a></th><th><a href="Processes.ipynb" target="_blank">' + "Processes" + '</a><br><div class="small">' + '(hover over<br>"!"-sign)' + '</div></th><th><a href="FinalFunctions.ipynb" target="_blank">' + "FinFu" + '</a></th><th nowrap><a href="MDModifier.ipynb" target="_blank">' + "Mod-MDM" + '</a></th><th><a href="Participants.ipynb" target="_blank">' + "Ptcp" + '</a></th><th><a href="DiscourseFunctions.ipynb" target="_blank">' + "DiscFu" + '</th></tr>'
     total += head
     patternNumber = 0
+    patternNumberWholePattern = 0
     numberOfOccurrences = 0
+    numberOfOccurrencesPattern = 0
+    totalNumberOfOccurrences = 0
     
     for p in patterns:
         if (n != 0 and int(p[0]) != n):
@@ -568,16 +591,29 @@ def make_patterns(patterns, conversion, n, conc):
             lineMother = '<tr><td><a href="ConcordanceOfPatterns.ipynb#' + p[0] + '" target="_blank">' + p[0] + '</a></td><td>' + p[1] + '</td><td><a href="#ln' + p[4] + '">' + p[4] + '</a></td><td><div class="front">' + p[3][:4] + '<div class="def_disc">' + default_df_mother + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + mother_ctt_text + '<div class="translation">' + getTranslation(p[39], p[40]) + '</div></div></td><td>' + p[7]  + '</td><td nowrap><div class="left">' + p[9] +'</div></td>' + processes_mother + '<td nowrap><div class="right">' + p[17] + '</div></td>' + mother_modifier + '<td></td><td>' + p[37] + '</td></tr>' 
             lineDaughter = '<tr><td></td><td></td><td><a href="#ln' + p[5] + '">' +  p[5] + '</a></td><td><div class="front">' + p[3][6:] + '<div class="def_disc">' + default_df_daughter + '</div></div></td><td class="unicode" nowrap><div class="front_hebrew">' + daughter_ctt_text + '<div class="translation">' + getTranslation(p[42], p[43]) + '</div></div></td><td>' + p[8] + '</td><td nowrap><div class="left">' + p[10] + '</div></td>' + processes_daughter + '<td nowrap><div class="right">' + p[18] + '</div></td>' + daughter_modifier + participants + '<td>' + p[38] + '</td></tr>'		
         if (conc == "yes" and patternNumber != 0 and int(p[0]) != patternNumber):
-            total += '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan = "3"><strong><em>' + str(numberOfOccurrences) + ' occurrences (' + str(round((numberOfOccurrences / 4808 * 100), 2)) + '%)</em></strong></td></tr>'
+            if patternNumber == 1731:
+                total += '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan = "5"><strong><em>' + '128 occurrences (Psalm titles not included)(' + str(round((128 / 4805 * 100), 2)) + '%)</em></strong></td></tr>'
+            else:			
+                total += '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan = "5"><strong><em>' + str(numberOfOccurrences) + ' occurrences (' + str(round((numberOfOccurrences / 4805 * 100), 2)) + '%)</em></strong></td></tr>'
+            if (patternNumberWholePattern != 0 and ((int(p[0]) // 10) != patternNumberWholePattern)):
+                total += '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan = "5"><strong><em>' + str(numberOfOccurrencesPattern) + ' occurrences of whole pattern (' + str(round((numberOfOccurrencesPattern / 4805 * 100), 2)) + '%)</em></strong></td></tr>'
+                numberOfOccurrencesPattern = 0            
             total += '<tr><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td><td><div class="delimit"></div></td></tr><tr id="' + p[0] + '"><td>&nbsp;</td></tr>'
             numberOfOccurrences = 0
         total += lineMother + lineDaughter + '<tr><td>&nbsp;</td></tr>'
         patternNumber = int(p[0])
-        numberOfOccurrences += 1    
+        patternNumberWholePattern = int(p[0]) // 10
+        numberOfOccurrences += 1
+        numberOfOccurrencesPattern += 1
+        totalNumberOfOccurrences += 1		
+		
+    if (conc == "yes"):
+        total += '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan = "5"><strong><em>' + str(numberOfOccurrences) + ' occurrences (' + str(round((numberOfOccurrences / 4808 * 100), 2)) + '%)</em></strong></td></tr>'
+        total += '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan = "5"><strong><em>' + '247 occurrences of whole pattern (' + str(round((247 / 4805 * 100), 2)) + '%)</em></strong></td></tr>'	
     total += '</table>'
     
     display(HTML(total))
-  
+	
 def print_translation(analysisFile, numberOfLines=0):
     data = read_file(analysisFile)
     conversion_to_utf8 = create_conversion_dict()

@@ -16,8 +16,8 @@
 006;3pl-;xQt0;;16;2;963;ind.;;;;;;ind.;disc;2nd;retro;;precGivInf;SubDm;      |           |  [KJ <Cj>] [NW<YW <Pr>] [LB <Ob>] [JXDW <Mo>];given that now that/when they have advised a heart;have advised;
 006;3plm;xYq0;Coor;17;2;611;non-vol.;;;;KJ;;non-vol.;disc;main;zero;;GivInf>Mn;SubDm;      |           |      [<LJK <Co>] [BRJT <Ob>] [JKRTW <Pr>];(given that) they cut off a covenant;cut off;
 007;---;Ellp;;18;2;782;-;;;;;;-;;;;;opn2ndR;;      |          [>HLJ >DWM W-JCM<>LJM MW>B W-HGRJM <Su>];tents of Edom and..;;
-008;---;Ellp;Coor;19;2;0;-;;;;;;-;;;;;;;      |               |  [GBL W-<MWN W-<MLQ PLCT / <M JCBJ YWR <sp><Su>];GBL/ and..;;
-009;3sgm;XQtl;;20;2;0;ind.;;;;;;ind.;disc;2nd;retro;;;;      |              [GM >CWR <Su>] [NLWH <Pr>] [<MM <Co>];even >CWR/ has been joined;has been joined;
+008;---;Ellp;Coor;19;2;0;-;;;;;;-;;;;;;;      |               |  [GBL W-<MWN W-<MLQ PLCT / <M JCBJ YWR <sp><Su>];Gebal and..;;
+009;3sgm;XQtl;;20;2;0;ind.;;;;;;ind.;disc;2nd;retro;;;;      |              [GM >CWR <Su>] [NLWH <Pr>] [<MM <Co>];even Assyria has been joined;has been joined;
 009;3pl-;ZQt0;;21;2;1152;ind.;;;;;;ind.;disc;2nd;retro;;cnt2ndR;;      |                  [HJW <Pr>] [ZRW< <PC>] [L-BNJ LWV <Co>];they have been an arm;have been;
 009;---;MSyn;;22;2;0;-;;;;;;-;;MAIN;;SLH;;;      |                      [SLH <Ij>];sela;;
 010;2sgm;ZIm0;;23;2;0;imperat.;;;;;;imperat.;disc;main;zero;;(re)openMain;;     [<FH <Pr>] [LHM <Co>] [K-MDJN / K-SJSR> / K-JBJN / B-NXL QJCWN <sp><pa><pa><Co>];make/do!;make/do;

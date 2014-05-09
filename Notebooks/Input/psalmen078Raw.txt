@@ -145,7 +145,7 @@
 052;3sgm;Way0;;145;2;1311;ind.;;;;;;ind.;narr;main;zero;;cntNrMn;;                              |       |          [W-<Cj>] [JNHGM <PO>] [K--<DR <Aj>] [B--MDBR <Lo>];and he caused them to drive;caused to drive;
 053;3sgm;Way0;;146;2;1311;ind.;;;;;;ind.;narr;main;zero;;cntNrMn;;                              |       |          [W-<Cj>] [JNXM <PO>] [L-BVX <Co>];and he led them;led;
 053;3pl-;WxQ0;;147;2;1072;ind.;;;;;;ind.;narr;2nd;retro;;parSit>2ndR;;                              |       |            | [W-<Cj>] [L> <Ng>] [PXDW <Pr>];while they have not trembled;have trembled;
-053;3sgm;WxQX;;148;2;1062;ind.;;;;;;ind.;narr;2nd;retro;;cntNr2nd;;                              |       |            |     [W-<Cj>] [>T >WJBJHM <Ob>] [KSH <Pr>] [H-JM <Su>];and the sea has covered their hostile ones;has covered;
+053;3sgm;WxQX;;148;2;1062;ind.;;;;;;ind.;narr;2nd;retro;;cntNr2nd;;                              |       |            |     [W-<Cj>] [>T >WJBJHM <Ob>] [KSH <Pr>] [H-JM <Su>];and the sea has covered (with) their hostile ones;has covered (with);
 054;3sgm;Way0;;149;2;1311;ind.;;;;;;ind.;narr;main;zero;;cntNrMn;;                              |       |          [W-<Cj>] [JBJ>M <PO>] [>L GBWL QDCW / HR ZH <ap><Co>];and he caused them to come (to);caused to come (to);
 054;3sgf;ZQtX;Attr;150;2;1163;ind.;;;;;;ind.;disc;2nd;retro;;opnAttr2ndR;AttrDm;                              |       |            |  |  [QNTH <Pr>] [JMJNW <Su>];(in/for/with/of) whom/which his right hand has bought;has bought;
 055;3sgm;Way0;;151;2;1311;ind.;;;;;;ind.;narr;main;zero;;cntNrMn;;                              |       |            | [W-<Cj>] [JGRC <Pr>] [M-PNJHM <Co>] [GWJM <Ob>];and he drove out peoples;drove out;

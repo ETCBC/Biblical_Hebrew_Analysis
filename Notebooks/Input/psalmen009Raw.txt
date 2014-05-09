@@ -30,7 +30,7 @@
 011;2sgm;xQt0;;30;211;943;ind.;;;;;;ind.;disc;2nd;retro;;opnSbLn2ndR;SubDm;      |   |              [KJ <Cj>] [L> <Ng>] [<ZBT <Pr>] [DRCJK <Ob>];given that you have not left your inquirers;have left;
 011;---;Voct;;31;211;0;-;;;;;;-;;;;;;SubDm;      |   |                  [JHWH <Vo>];o YHWH;;
 012;2plm;ZIm0;;32;22;0;imperat.;;;;;;imperat.;disc;main;zero;;(re)openMain;;      |  [ZMRW <Pr>] [L-JHWH <Co>];sing (of)!;sing (of);
-012;-sgm;Ptcp;Attr;33;22;1563;ind.;;;;;;ind.;disc;main;;;opnAttrMain;AttrDm;      |       |   |  [JCB <PC>] [YJWN <Ob>];who/which is sitting (in) YJWN==/;is sitting (in);
+012;-sgm;Ptcp;Attr;33;22;1563;ind.;;;;;;ind.;disc;main;;;opnAttrMain;AttrDm;      |       |   |  [JCB <PC>] [YJWN <Ob>];who/which is sitting (in) Zion;is sitting (in);
 012;2plm;ZIm0;;34;22;11;imperat.;;;;;;imperat.;disc;main;zero;;cntMain;;      |       |  [HGJDW <Pr>] [B--<MJM <Co>] [<LJLWTJW <Ob>];report his deeds!;report;
 013;-sgm;Ptcp;;35;22;1563;ind.;;;;;;ind.;disc;main;;;opnSbLnMain;SubDm;      |      [KJ <Cj>] [DRC <PC>] [DMJM <Ob>];given that he/it is inquiring bloods;is inquiring;
 013;3sgm;xQt0;Coor;36;22;1001;ind.;;;;KJ;;ind.;disc;2nd;retro;;crdSbLn>2ndR;SubDm;      |          [>WTM <Ob>] [ZKR <Pr>];(given that) he has remembered them;has remembered;

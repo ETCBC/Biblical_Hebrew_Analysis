@@ -10,9 +10,9 @@
 004;---;NmCl;;10;2;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;     [QWL JHWH <Su>] [B--KX <PC>];the sound of YHWH is in/among the strength;is;
 004;---;NmCl;;11;2;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;     [QWL JHWH <Su>] [B--HDR <PC>];the sound of YHWH is in/among the ornament;is;
 005;-sgm;Ptcp;;12;2;1641;ind.;;;;;;ind.;disc;main;;;cntMain;;          |  [QWL JHWH <Su>] [CBR <PC>] [>RZJM <Ob>];the sound of YHWH is breaking cedars;is breaking;
-005;3sgm;WayX;;13;21;1342;ind.;;;;;;ind.;narr;main;zero;;disc>narr;;          |    | [W-<Cj>] [JCBR <Pr>] [JHWH <Su>] [>T >RZJ H-LBNWN <Ob>];YHWH broke the cedars of LBNWN/;broke;
+005;3sgm;WayX;;13;21;1342;ind.;;;;;;ind.;narr;main;zero;;disc>narr;;          |    | [W-<Cj>] [JCBR <Pr>] [JHWH <Su>] [>T >RZJ H-LBNWN <Ob>];YHWH broke the cedars of Lebanon;broke;
 006;3sgm;Way0;;14;21;1311;ind.;;;;;;ind.;narr;main;zero;;cntNrMn;;          |    |     [W-<Cj>] [JRQJDM <PO>] [KMW <GL <Aj>];and he caused them to skip;caused to skip;
-006;---;Ellp;;15;21;0;-;;;;;;-;;;;;;;          |    |         [LBNWN W-FRJN <Ob>] [KMW BN R>MJM <Aj>]; LBNWN/ and..;;
+006;---;Ellp;;15;21;0;-;;;;;;-;;;;;;;          |    |         [LBNWN W-FRJN <Ob>] [KMW BN R>MJM <Aj>]; Lebanon and..;;
 007;-sgm;Ptcp;;16;2;1631;ind.;;;;;;ind.;disc;main;;;cntMain;;          |  [QWL JHWH <Su>] [XYB <PC>] [LHBWT >C <Ob>];the sound of YHWH is hewing flames of fire;is hewing;
 008;3sgm;XYqt;;17;2;471;non-vol.;;;;;;non-vol.;disc;main;zero;;cntMain;;         [QWL JHWH <Su>] [JXJL <Pr>] [MDBR <Ob>];the sound of YHWH causes a desert to have labour pain/cry;causes to have labour pain/cry;
 008;3sgm;ZYqX;;18;2;121;volit.;;non-vol.;non-vol.;;;non-vol.;disc;main;zero;;cntMain;;          |  [JXJL <Pr>] [JHWH <Su>] [MDBR QDC <Ob>];YHWH causes the desert of Kadesh to have labour pain/cry;causes to have labour pain/cry;

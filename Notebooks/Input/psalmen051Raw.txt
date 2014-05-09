@@ -1,6 +1,6 @@
 001;---;NmCl;;1;1;0;nomin.;;;;;;nomin.;disc;main;;;(re)openMain;; [L--MNYX <PC>];this is to the prevailer;is;
 001;---;NmCl;;2;1;1731;nomin.;;;;;;nomin.;disc;main;;;cntMain;;  |  [MZMWR / L-DWD <sp><PC>];this is a psalm;is;
-002;---;InfC;AjCl;3;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B-BW> <Pr>] [>LJW <Co>] [NTN / H-NBJ> <ap><Su>];while/when NTN/ is coming (to);is coming (to);
+002;---;InfC;AjCl;3;1;0;inf.;;;;;;inf.;;;;;opnDpLn;DepDm;  |      [B-BW> <Pr>] [>LJW <Co>] [NTN / H-NBJ> <ap><Su>];while/when Nathan is coming (to);is coming (to);
 002;3sgm;xQt0;;4;1;0;ind.;;;;;;ind.;disc;2nd;retro;;opnSbLn2ndR;SubDm;  |          [K->CR <Cj>] [B> <Pr>] [>L BT_CB< <Co>];like/as soon as he has come (to);has come (to);
 003;2sgm;ZIm0;;5;2;0;imperat.;;;;;;imperat.;disc;main;zero;;opnDrSpMain;; [XNNJ <PO>];favour me;favour;
 003;---;Voct;;6;2;0;-;;;;;;-;;;;;;;  |   |   |   |  [>LHJM <Vo>];o God;;
@@ -54,7 +54,7 @@
 019;---;Defc;;54;2;601;-;;;;;;-;;;;;cntMain;;      |          [LB NCBR W-NDKH <Ob>]; the heart;;
 019;---;Voct;;55;2;0;-;;;;;;-;;;;;;;      |               |  [>LHJM <Vo>];o God;;
 019;2sgm;xYq0;;56;2;0;non-vol.;;juss.;neg.vol.;;;neg.vol.;disc;main;zero;;;;      |              [L> <Ng>] [TBZH <Pr>];you should not despise;should despise;
-020;2sgm;ZIm0;;57;2;0;imperat.;;;;;;imperat.;disc;main;zero;;(re)openMain;;     [HJVJBH <Pr>] [B-RYWNK <Aj>] [>T YJWN <Ob>];cause YJWN==/ to be good!;cause to be good;
+020;2sgm;ZIm0;;57;2;0;imperat.;;;;;;imperat.;disc;main;zero;;(re)openMain;;     [HJVJBH <Pr>] [B-RYWNK <Aj>] [>T YJWN <Ob>];cause Zion to be good!;cause to be good;
 020;2sgm;ZYq0;;58;2;101;juss.;;;;;;juss.;disc;main;zero;;cntMain;;          |  [TBNH <Pr>] [XWMWT JRWCLM <Ob>];you should build the walls of Jerusalem;should build;
 021;2sgm;xYq0;;59;2;571;non-vol.;;juss.;x;;;non-vol.;disc;main;zero;;cntMain;;         [>Z <Mo>] [TXPY <Pr>] [ZBXJ YDQ <Ob>];then you desire sacrifices of justice;desire;
 021;---;Ellp;;60;2;0;-;;;;;;-;;;;;;;              |  [<WLH / W-/ KLJL <pa><cj><Ob>]; a burnt-offering;;
