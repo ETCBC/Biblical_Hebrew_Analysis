@@ -163,6 +163,10 @@ div.counter {
 	font-style: italic;
 }
 
+span.count {
+    text-align: left;
+}
+
 </style>
 """))
 
