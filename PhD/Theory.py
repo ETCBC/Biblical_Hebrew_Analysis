@@ -20,6 +20,10 @@ h1, h2, h3, h4 {
 	color:Gold;
 }
 
+div.text_cell_render {
+	color:DarkBlue;
+}
+
 table.presentation, table.verbs, table.patterns, table.verbal_patterns {
     margin-left: auto;
     margin-right: auto;

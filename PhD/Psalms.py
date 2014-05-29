@@ -20,9 +20,12 @@ h1, h2, h3, h4 {
 	color:Gold;
 }
 
+div.text_cell_render {
+	color:DarkBlue;
+}
+
 table.presentation {
     border-style:hidden;
-	/* color:White; */
 }
 
 table.presentation tr {
@@ -60,7 +63,6 @@ div.navigation {
     width:50%;
     font-size:small;
     font-style:italic;
-	/* color:White; */
 }
 
 div.navigation form, div.navigation form input {
@@ -105,12 +107,10 @@ div.front div, div.front_hebrew div {
 div.front:hover div, div.front_a:hover div, div.front_b:hover div {
     display: block;
     max-width: 200px;
-	/* background-color:midnightblue; */
 }
     
 div.front_hebrew:hover div {
     display: block;
-	/* background-color:midnightblue; */
 }
 
 div.def_disc, div.factors {
@@ -147,12 +147,10 @@ div.delimit {
 
 span.translation_verb{
     color: Crimson;
-	/* background-color:midnightblue; */
 }
 
 span.verb {
     color: Crimson;
-	/* background-color:midnightblue; */
 }
 
 div.small {
